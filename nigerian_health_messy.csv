@@ -1,0 +1,826 @@
+PatientID,Age,Gender,State,Occupation,Systolic_BP,Diastolic_BP,BMI,Cholesterol,BloodSugar,HeartRate,Smoking,AlcoholConsumption,ExerciseFrequency,FamilyHistory,DiseaseRisk
+PAT0001,56.0,female,Anambra,Teacher,131.0,90.0,32.3,168.0,115.0,66.0,Yes,Yes,Weekly,No,High
+PAT0002,69.0,M,Lagos,Teacher,131.0,79.0,28.2,149.0,79.0,69.0,no,no,weekly,No,Low
+PAT0003,46.0,Female,Rivers,Trader,119.0,79.0,,221.0,97.0,59.0,No,No,Rarely,No,Low
+PAT0004,32.0,Male,Anambra,Civil Servant,89.0,67.0,21.1,249.0,153.0,66.0,yes,Occasionally,Weekly,No,Low
+PAT0005,60.0,female,Bauchi,Unemployed,96.0,62.0,28.6,207.0,65.0,89.0,yes,No,Rarely,Yes,High
+PAT0006,25.0,female,Rivers,Engineer,119.0,80.0,32.4,217.0,106.0,89.0,No,No,Rarely,no,Low
+PAT0007,38.0,Female,Abuja,Civil Servant,115.0,77.0,30.2,278.0,135.0,93.0,No,Occasionally,Weekly,no,High
+PAT0008,56.0,F,Bauchi,Farmer,123.0,80.0,24.2,250.0,119.0,75.0,YES,Never,Daily,No,Low
+PAT0009,36.0,Male,Anambra,Farmer,142.0,92.0,,201.0,140.0,78.0,no,No,Rarely,No,Low
+PAT0010,40.0,Male,Lagos,Doctor,113.0,69.0,30.4,183.0,100.0,89.0,YES,yes,weekly,No,Low
+PAT0011,28.0,Male,Anambra,Trader,142.0,94.0,24.5kg/m2,244.0,110.0,57.0,yes,Never,Rarely,yes,High
+PAT0012,28.0,Female,Rivers,Trader,113.0,71.0,26.3,233.0,98.0,85.0,Yes,No,daily,No,Low
+PAT0013,41.0,female,Rivers,Trader,146.0,107.0,25.1,217.0,108.0,91.0,Yes,No,Never,Yes,High
+PAT0014,70.0,F,Kaduna,Doctor,127.0/89.0,,19.2,187.0,72.0,64.0,No,Never,Daily,No,Low
+PAT0015,53.0,Female,Lagos,Farmer,116.0,64.0,27.8,197.0,115.0,92.0,No,No,Never,No,Low
+PAT0016,57.0,F,Borno,Civil Servant,126.0,71.0,27.1,194.0,102.0,100.0,No,Yes,Weekly,Yes,Low
+PAT0017,41.0,female,Bauchi,Doctor,119.0,76.0,23.9,188.0,97.0,84.0,no,No,Weekly,No,Low
+PAT0018,20.0,female,Kano,Doctor,127.0,79.0,28.4kg/m2,176.0,139.0,82.0,No,No,Rarely,No,Low
+PAT0019,39.0,Male,Lagos,Civil Servant,140.0,90.0,19.1,211.0,88.0,62.0,No,Never,Never,No,Low
+PAT0020,700.0,Female,Kano,Trader,123.0,85.0,,174.0,125.0,88.0,no,Yes,Weekly,No,High
+PAT0021,19.0,Male,Lagos,Engineer,118.0,79.0,26.1,207.0,128.0,63.0,no,Never,daily,1,Low
+PAT0022,41.0,Female,Lagos,Civil Servant,103.0,69.0,17.3,116.0,116.0,79.0,No,No,Never,No,Low
+PAT0023,61.0,Male,Anambra,Farmer,137.0,101.0,25.7,176.0,71.0,81.0,no,No,weekly,No,Low
+PAT0024,47.0,M,Lagos,Teacher,132.0,75.0,29.7,244.0,104.0,45.0,1,Yes,Weekly,Yes,High
+PAT0025,55.0,Female,Kaduna,Unemployed,101.0,66.0,24.5,164.0,144.0,80.0,No,no,weekly,Yes,High
+PAT0026,19.0,Male,Borno,Teacher,142.0/88.0,,25.8,224.0,60.0mg/dL,106.0,Yes,Occasionally,Weekly,No,Low
+PAT0027,38.0,Female,Rivers,Student,101.0,77.0,28.8,167.0,90.0,50.0,Yes,No,Daily,No,Low
+PAT0028,50.0,Female,Enugu,Student,146.0,77.0,24.1,231.0,124.0,74.0,No,No,Never,yes,High
+PAT0029,29.0,Female,Kano,Doctor,139.0,73.0,24.5,188.0,92.0,52.0,No,yes,Never,No,Low
+PAT0030,39.0,Female,Rivers,Unemployed,133.0,89.0,20.1,187.0,115.0,64.0,YES,Never,Rarely,No,High
+PAT0031,61.0,Male,Enugu,Teacher,117.0,85.0,25.9,202.0,130.0,52.0,no,Yes,Rarely,No,High
+PAT0032,,Female,Borno,Engineer,137.0,95.0,24.3,146.0,101.0,77.0,no,yes,Daily,No,Low
+PAT0033,66.0,Female,Borno,Trader,147.0,89.0,28.5,239.0,108.0,85.0,YES,yes,Rarely,1,High
+PAT0034,44.0,M,Kano,Farmer,137.0,101.0,28.8,252.0,97.0,80.0,1,No,Weekly,No,Low
+PAT0035,59.0,Female,Kano,Student,112.0,63.0,30.0,186.0,102.0,64.0,No,No,Rarely,Yes,High
+PAT0036,45.0,Male,Borno,Engineer,130.0,95.0,23.5,221.0,148.0,68.0,Yes,No,Weekly,yes,High
+PAT0037,33.0,Male,Enugu,Farmer,148.0,87.0,15.1,231.0,93.0,78.0,yes,Never,weekly,yes,Low
+PAT0038,32.0,female,Lagos,Farmer,169.0,107.0,29.7,196.0,86.0,64.0,No,yes,Rarely,No,Low
+PAT0039,64.0,Female,Bauchi,Trader,121.0,84.0,28.2,156.0,121.0,59.0,No,No,Never,Yes,High
+PAT0040,-68.0,M,Abuja,Unemployed,142.0,81.0,22.8,264.0,74.0,72.0,No,No,weekly,No,Low
+PAT0041,,female,Rivers,Doctor,148.0,108.0,28.8,184.0,80.0,64.0,0,No,Rarely,Yes,High
+PAT0042,72.0,Male,Anambra,Teacher,109.0,68.0,18.8,176.0,80.0,80.0,No,Never,Daily,no,Low
+PAT0043,69.0,male,Rivers,Trader,161.0,106.0,31.2,266.0,89.0,91.0,no,No,Daily,No,High
+PAT0044,74.0,M,Anambra,Engineer,104.0,77.0,24.3,224.0,90.0mg/dL,106.0,No,No,Never,No,Low
+PAT0045,20.0,Male,Enugu,Doctor,141.0/85.0,,21.9kg/m2,210.0,112.0,79.0,yes,No,Weekly,No,Low
+PAT0046,54.0,Female,Anambra,Engineer,131.0,94.0,,161.0,86.0,83.0,Yes,No,Rarely,Yes,High
+PAT0047,68.0,F,Kano,Doctor,126.0/95.0,,24.8,232.0,113.0,68.0,1,No,Weekly,Yes,High
+PAT0048,24.0,Female,Bauchi,Unemployed,176.0,109.0,25.9,316.0,117.0,69.0,Yes,Yes,Weekly,0,High
+PAT0049,38.0,female,Bauchi,Student,119.0,88.0,26.2,235.0,79.0,90.0,yes,Yes,Rarely,Yes,High
+PAT0050,26.0,Female,Kano,Engineer,119.0,63.0,23.9,220.0,116.0,72.0,Yes,Never,weekly,Yes,High
+PAT0051,56.0,F,Kaduna,Trader,152.0,102.0,27.0,229.0,118.0,76.0,No,No,Rarely,0,Low
+PAT0052,35.0,Female,Enugu,Doctor,140.0,81.0,26.0,187.0,60.0,90.0,No,Yes,weekly,No,Low
+PAT0053,21.0,male,Kaduna,Doctor,151.0,106.0,22.8,186.0,102.0mg/dL,72.0,No,Never,weekly,yes,Low
+PAT0054,42.0,M,Kaduna,Farmer,127.0,89.0,22.0,186.0,82.0,93.0,Yes,Yes,Weekly,Yes,High
+PAT0055,31.0,Male,Rivers,Farmer,131.0,102.0,29.0,177.0,128.0,82.0,No,yes,Weekly,No,High
+PAT0056,67.0,Male,Borno,Civil Servant,163.0,117.0,28.6,186.0,82.0,80.0,yes,No,Never,No,High
+PAT0057,26.0,Male,Rivers,Engineer,108.0/69.0,,26.3,186.0,62.0,67.0,yes,Yes,daily,yes,Low
+PAT0058,43.0,Male,Borno,Farmer,123.0,71.0,30.6,190.0,94.0,81.0,Yes,No,Rarely,Yes,High
+PAT0059,700.0,Male,Abuja,Civil Servant,141.0,96.0,16.2,189.0,73.0,70.0,yes,Yes,weekly,No,High
+PAT0060,19.0,F,Anambra,Student,121.0,78.0,23.2,210.0,116.0,81.0,Yes,Never,Daily,yes,Low
+PAT0061,37.0,M,Borno,Student,114.0,87.0,20.2,203.0,75.0,74.0,No,No,Weekly,No,Low
+PAT0062,45.0,F,Kano,Farmer,137.0,72.0,37.3,207.0,95.0,87.0,No,Yes,Rarely,No,Low
+PAT0063,64.0,female,Rivers,Engineer,152.0,116.0,29.6,261.0,134.0,75.0,No,No,Rarely,Yes,High
+PAT0064,240.0,M,Enugu,Doctor,122.0,84.0,25.6,203.0,122.0,99.0,No,No,Daily,Yes,High
+PAT0065,61.0,F,Anambra,Teacher,122.0,73.0,29.9,,107.0,72.0,YES,Yes,Weekly,No,High
+PAT0066,25.0,F,Abuja,Unemployed,112.0,79.0,31.6,214.0,92.0,69.0,No,No,Daily,No,Low
+PAT0067,64.0,Female,Borno,Engineer,119.0,88.0,31.5,182.0,105.0,79.0,No,No,Rarely,0,High
+PAT0068,52.0,Male,Abuja,Unemployed,147.0,96.0,30.6,2540.0,112.0,88.0,No,Never,daily,yes,High
+PAT0069,31.0,Male,Enugu,Trader,127.0,68.0,24.7,197.0,70.0,88.0,1,No,daily,No,Low
+PAT0070,34.0,Female,Kaduna,Student,109.0,68.0,23.5,104.0,116.0,,No,no,Rarely,no,Low
+PAT0071,53.0,Female,Bauchi,Farmer,130.0,93.0,21.2,200.0,67.0,79.0,yes,Never,Rarely,Yes,High
+PAT0072,67.0,Male,Enugu,Farmer,146.0,99.0,28.5,190.0,109.0,79.0,0,No,Rarely,No,High
+PAT0073,57.0,male,Oyo,Unemployed,114.0,73.0,25.2,264.0,67.0,62.0,0,Never,Daily,No,Low
+PAT0074,21.0,F,Enugu,Doctor,98.0,74.0,23.9,164.0,144.0,87.0,yes,Never,Weekly,Yes,Low
+PAT0075,19.0,Male,Abuja,Unemployed,169.0,116.0,,187.0,114.0,60.0,Yes,No,Weekly,yes,High
+PAT0076,23.0,Female,Kano,Trader,97.0,70.0,33.3,251.0,60.0,62.0,no,Occasionally,Never,No,Low
+PAT0077,71.0,Male,Rivers,Doctor,118.0,73.0,30.8,216.0,95.0,76.0,No,No,daily,No,Low
+PAT0078,590.0,Female,Kano,Trader,130.0,80.0,35.2kg/m2,193.0,82.0,71.0,yes,No,Rarely,No,High
+PAT0079,21.0,Female,Abuja,Teacher,120.0/64.0,,28.6,170.0,79.0,85.0,yes,Never,Never,No,Low
+PAT0080,710.0,male,Rivers,Student,124.0,79.0,26.3,214.0,99.0,80.0,no,No,Daily,Yes,High
+PAT0081,46.0,Female,Oyo,Farmer,137.0,97.0,25.9,199.0,72.0,77.0,No,No,Rarely,No,Low
+PAT0082,35.0,male,Bauchi,Farmer,80.0,50.0,20.9,169.0,114.0,61.0,No,Yes,Never,No,Low
+PAT0083,43.0,female,Anambra,Teacher,100.0,69.0,19.7,171.0,113.0,75.0,YES,Never,Rarely,no,Low
+PAT0084,61.0,Male,Abuja,Civil Servant,126.0,91.0,28.5,167.0,104.0,74.0,Yes,Never,Weekly,Yes,High
+PAT0085,51.0,F,Borno,Student,117.0,79.0,21.3,160.0,95.0,78.0,No,yes,daily,Yes,Low
+PAT0086,27.0,M,Abuja,Doctor,128.0,87.0,27.1,237.0,111.0,70.0,No,Occasionally,Never,No,Low
+PAT0087,53.0,Female,Abuja,Teacher,130.0,74.0,31.6,232.0,115.0,81.0,YES,No,daily,no,High
+PAT0088,31.0,Female,Rivers,Doctor,83.0,51.0,22.7,237.0,106.0,71.0,Yes,No,Never,No,Low
+PAT0089,48.0,F,Lagos,Unemployed,150.0/111.0,,36.1,200.0,62.0,80.0,Yes,no,weekly,yes,High
+PAT0090,-65.0,M,Enugu,Engineer,115.0,76.0,21.0,190.0,75.0,85.0,Yes,Never,Weekly,0,Low
+PAT0091,32.0,male,Lagos,Farmer,108.0,,31.0,191.0,88.0,69.0,Yes,No,Daily,0,Low
+PAT0092,25.0,female,Oyo,Doctor,129.0,78.0,28.1,241.0,60.0,66.0,0,Yes,Weekly,yes,High
+PAT0093,31.0,M,Borno,Trader,127.0,84.0,32.0,127.0,101.0,81.0,yes,Never,Daily,yes,High
+PAT0094,40.0,female,Bauchi,Doctor,149.0,94.0,20.4,179.0,130.0,59.0,yes,Occasionally,Rarely,Yes,High
+PAT0095,74.0,M,Kaduna,Engineer,130.0,89.0,,165.0,126.0,88.0,No,yes,Rarely,no,High
+PAT0096,57.0,M,Oyo,Student,148.0,103.0,25.1,254.0,113.0,75.0,no,No,Rarely,No,High
+PAT0097,38.0,M,Kaduna,Farmer,106.0,74.0,29.4,181.0,113.0,74.0,Yes,Occasionally,Weekly,0,Low
+PAT0098,33.0,Male,Kaduna,Unemployed,128.0,92.0,33.2,135.0,150.0,82.0,No,Never,daily,Yes,High
+PAT0099,62.0,F,Bauchi,Teacher,103.0,67.0,23.0,209.0,116.0,81.0,No,No,Daily,No,Low
+PAT0100,35.0,M,Kano,Unemployed,127.0,81.0,30.1,185.0,118.0,75.0,Yes,Never,Weekly,No,High
+PAT0101,64.0,Female,Lagos,Engineer,123.0,66.0,22.1kg/m2,178.0,60.0,86.0,No,Never,Never,No,Low
+PAT0102,70.0,female,Abuja,Farmer,122.0,84.0,33.0,174.0,128.0,67.0,No,Occasionally,Never,Yes,High
+PAT0103,41.0,Female,Anambra,Doctor,122.0,81.0,22.2,172.0,105.0,84.0,Yes,Never,Weekly,No,High
+PAT0104,43.0,M,Kaduna,Student,140.0,90.0,26.2,228.0,93.0,62.0,Yes,yes,Daily,yes,High
+PAT0105,42.0,F,Borno,Civil Servant,93.0,59.0,27.5,209.0,87.0,81.0,no,yes,Rarely,No,Low
+PAT0106,62.0,F,Oyo,Student,107.0,69.0,29.9,192.0,81.0,71.0,Yes,No,Daily,Yes,High
+PAT0107,58.0,Female,Kano,Civil Servant,124.0,79.0,35.8,156.0,126.0,59.0,0,yes,Daily,yes,High
+PAT0108,46.0,male,Kaduna,Trader,101.0/61.0,,23.7,193.0,94.0,78.0,Yes,Never,Rarely,No,High
+PAT0109,32.0,F,Kano,Student,126.0,84.0,31.7,210.0,82.0,75.0,no,Occasionally,Weekly,Yes,Low
+PAT0110,62.0,Male,Kano,Farmer,124.0,84.0,35.9,212.0,76.0mg/dL,56.0,1,No,Weekly,No,High
+PAT0111,18.0,Male,Kaduna,Civil Servant,97.0,57.0,26.8,206.0,99.0,50.0,0,yes,Rarely,no,Low
+PAT0112,42.0,M,Rivers,Teacher,96.0,59.0,23.2,163.0,86.0,73.0,1,No,weekly,No,Low
+PAT0113,24.0,Female,Enugu,Farmer,80.0,50.0,17.3,104.0,80.0,94.0,No,no,weekly,No,Low
+PAT0114,26.0,Male,Borno,Teacher,101.0,66.0,35.4,272.0,60.0,79.0,No,yes,Weekly,No,Low
+PAT0115,41.0,M,Abuja,Student,125.0,80.0,24.8,148.0,119.0,67.0,No,Yes,Weekly,No,Low
+PAT0116,18.0,Female,Abuja,Teacher,128.0,88.0,21.0,121.0,92.0,88.0,Yes,No,Weekly,Yes,Low
+PAT0117,61.0,M,Borno,Civil Servant,129.0,71.0,19.2,205.0,68.0,86.0,Yes,Yes,Weekly,0,High
+PAT0118,25.0,Female,Rivers,Farmer,109.0,59.0,21.0,132.0,88.0,90.0,1,Yes,Rarely,no,Low
+PAT0119,41.0,M,Abuja,Doctor,125.0,,30.6,168.0,109.0,83.0,No,Never,Rarely,No,Low
+PAT0120,28.0,Female,Kano,Engineer,133.0,82.0,31.3,222.0,96.0,86.0,No,No,Rarely,No,Low
+PAT0121,68.0,F,Bauchi,Civil Servant,100.0,72.0,29.3,271.0,100.0,84.0,0,No,Weekly,yes,High
+PAT0122,34.0,Male,Oyo,Civil Servant,127.0,,26.7kg/m2,216.0,96.0,69.0,yes,Yes,Weekly,No,Low
+PAT0123,25.0,F,Lagos,Doctor,138.0,92.0,19.8,182.0,63.0,55.0,yes,Yes,Rarely,No,Low
+PAT0124,52.0,Female,Abuja,Farmer,115.0,66.0,22.4,198.0,119.0,69.0,no,Never,Weekly,Yes,Low
+PAT0125,52.0,male,Borno,Farmer,146.0,103.0,20.5,128.0,60.0,88.0,Yes,No,Rarely,No,High
+PAT0126,50.0,M,Bauchi,Unemployed,116.0,77.0,28.9,182.0,107.0,70.0,No,Never,Rarely,1,Low
+PAT0127,22.0,female,Kaduna,Student,108.0,58.0,20.7,182.0,110.0,73.0,YES,No,Rarely,Yes,Low
+PAT0128,59.0,M,Enugu,Teacher,136.0,77.0,22.4,206.0,90.0,61.0,0,No,Rarely,Yes,High
+PAT0129,56.0,Male,Borno,Student,166.0,120.0,25.1,278.0,104.0,68.0,1,No,Rarely,No,High
+PAT0130,58.0,male,Kano,Doctor,127.0,93.0,17.7,123.0,88.0,75.0,No,no,Weekly,no,Low
+PAT0131,45.0,Female,Enugu,Student,138.0,70.0,26.2,1840.0,104.0,81.0,1,yes,Daily,No,Low
+PAT0132,24.0,Female,Oyo,Doctor,115.0,,25.5kg/m2,127.0,120.0mg/dL,69.0,Yes,Occasionally,Rarely,No,Low
+PAT0133,26.0,Male,Oyo,Farmer,100.0,74.0,31.9,180.0,75.0,69.0,Yes,yes,Weekly,No,Low
+PAT0134,25.0,M,Rivers,Teacher,128.0,83.0,21.9,165.0,112.0,85.0,No,No,Rarely,No,Low
+PAT0135,29.0,M,Anambra,Student,131.0,91.0,19.5,140.0,137.0,79.0,No,Never,Never,Yes,Low
+PAT0136,51.0,Female,Rivers,Civil Servant,118.0,76.0,24.1,237.0,102.0,80.0,No,Occasionally,daily,Yes,High
+PAT0137,50.0,male,Bauchi,Trader,138.0,95.0,20.5,210.0,82.0,93.0,No,No,weekly,No,Low
+PAT0138,65.0,Male,Enugu,Unemployed,112.0,73.0,26.2,232.0,152.0,69.0,Yes,No,Daily,No,High
+PAT0139,72.0,Female,Anambra,Engineer,107.0,66.0,16.7,179.0,97.0,74.0,No,yes,weekly,0,High
+PAT0140,400.0,Female,Kaduna,Civil Servant,146.0,103.0,23.0,197.0,101.0,82.0,no,No,Rarely,No,High
+PAT0141,41.0,Male,Kano,Farmer,146.0,97.0,21.4,264.0,101.0,65.0,yes,Occasionally,Rarely,Yes,High
+PAT0142,54.0,Female,Enugu,Engineer,112.0,78.0,28.8,200.0,106.0,,Yes,No,Daily,No,Low
+PAT0143,52.0,F,Rivers,Trader,159.0,105.0,21.9,232.0,87.0,75.0,No,Yes,daily,No,High
+PAT0144,61.0,M,Lagos,Trader,119.0,73.0,17.3kg/m2,175.0,100.0,108.0,yes,Occasionally,Daily,Yes,High
+PAT0145,57.0,Male,Anambra,Teacher,127.0,95.0,25.0,229.0,119.0,76.0,No,Never,Never,1,High
+PAT0146,39.0,Female,Anambra,Engineer,123.0,83.0,27.6,178.0,86.0,89.0,No,Yes,Daily,no,Low
+PAT0147,44.0,Male,Kano,Teacher,135.0,85.0,24.6,124.0,85.0,85.0,No,Occasionally,Rarely,Yes,Low
+PAT0148,52.0,male,Abuja,Civil Servant,130.0,95.0,22.9,200.0,88.0,61.0,YES,No,Weekly,No,Low
+PAT0149,18.0,Male,Oyo,Doctor,130.0,74.0,22.6,181.0,68.0,56.0,Yes,No,Weekly,Yes,Low
+PAT0150,52.0,M,Oyo,Doctor,105.0,86.0,26.6,135.0,78.0,78.0,No,Occasionally,Daily,No,Low
+PAT0151,54.0,female,Lagos,Doctor,91.0,58.0,21.6,208.0,77.0,90.0,No,No,Weekly,No,Low
+PAT0152,64.0,M,Bauchi,Engineer,148.0,86.0,24.4,164.0,95.0,78.0,No,Yes,Daily,No,High
+PAT0153,31.0,female,Bauchi,Doctor,114.0,89.0,29.8,,116.0,76.0,Yes,No,Rarely,0,High
+PAT0154,20.0,Male,Kaduna,Civil Servant,124.0,77.0,19.5,141.0,131.0,72.0,Yes,no,Rarely,Yes,Low
+PAT0155,18.0,F,Enugu,Teacher,132.0,88.0,25.8,151.0,96.0,59.0,No,Yes,Never,No,Low
+PAT0156,22.0,M,Borno,Engineer,158.0,108.0,17.1,235.0,106.0,63.0,YES,yes,Rarely,no,High
+PAT0157,43.0,F,Abuja,Teacher,128.0,,27.1,195.0,101.0,56.0,yes,no,Daily,No,High
+PAT0158,72.0,Male,Rivers,Engineer,117.0,78.0,21.1,234.0,60.0,62.0,yes,No,Weekly,Yes,High
+PAT0159,31.0,Male,Borno,Teacher,115.0,70.0,31.1,215.0,66.0,69.0,no,no,Weekly,Yes,Low
+PAT0160,56.0,Male,Borno,Trader,124.0,82.0,18.6kg/m2,177.0,114.0,84.0,Yes,Never,daily,No,Low
+PAT0161,44.0,F,Anambra,Teacher,107.0,66.0,28.2,145.0,116.0,70.0,1,No,daily,0,Low
+PAT0162,26.0,male,Lagos,Doctor,126.0,84.0,32.1,243.0,116.0,78.0,No,No,Weekly,1,Low
+PAT0163,32.0,F,Oyo,Trader,124.0,94.0,20.8,148.0,91.0,77.0,No,No,Daily,1,Low
+PAT0164,32.0,Male,Kaduna,Teacher,158.0,109.0,21.7,222.0,60.0,81.0,no,yes,daily,no,Low
+PAT0165,43.0,male,Bauchi,Engineer,123.0,82.0,21.3,237.0,69.0,63.0,no,Never,daily,No,Low
+PAT0166,59.0,Female,Lagos,Engineer,87.0,62.0,,195.0,73.0,88.0,no,No,daily,1,Low
+PAT0167,30.0,Female,Anambra,Unemployed,178.0,120.0,28.6,188.0,111.0,58.0,Yes,No,Never,0,High
+PAT0168,68.0,Male,Rivers,Engineer,144.0,85.0,23.2,161.0,86.0,70.0,YES,No,Rarely,No,High
+PAT0169,49.0,F,Kaduna,Farmer,167.0,109.0,20.4,219.0,137.0mg/dL,75.0,YES,yes,Weekly,No,High
+PAT0170,56.0,Male,Anambra,Civil Servant,102.0/87.0,,15.9,100.0,132.0,84.0,No,No,Rarely,No,Low
+PAT0171,66.0,M,Oyo,Engineer,121.0,88.0,34.0,2290.0,137.0,92.0,Yes,Never,Rarely,Yes,High
+PAT0172,69.0,male,Oyo,Trader,138.0,86.0,34.4,205.0,72.0,84.0,Yes,No,Rarely,Yes,High
+PAT0173,49.0,Male,Oyo,Unemployed,136.0,84.0,28.8,1910.0,107.0,92.0,YES,no,Rarely,1,High
+PAT0174,21.0,M,Lagos,Engineer,131.0,80.0,21.9,210.0,83.0,65.0,No,No,Weekly,1,Low
+PAT0175,47.0,Male,Lagos,Farmer,81.0,60.0,29.7,145.0,103.0,89.0,No,yes,Weekly,Yes,Low
+PAT0176,54.0,Female,Bauchi,Doctor,91.0,72.0,30.7,103.0,75.0,87.0,No,Yes,Weekly,No,Low
+PAT0177,40.0,Female,Bauchi,Trader,155.0,105.0,24.7,219.0,126.0,46.0,No,no,Daily,no,Low
+PAT0178,56.0,Female,Rivers,Farmer,159.0,105.0,26.2,253.0,75.0,72.0,yes,Yes,Rarely,No,High
+PAT0179,62.0,M,Kaduna,Doctor,123.0,76.0,32.2,130.0,60.0,82.0,No,Yes,Never,No,Low
+PAT0180,32.0,Female,Kano,Student,153.0,102.0,17.8,158.0,146.0,69.0,YES,No,Never,yes,High
+PAT0181,60.0,M,Kano,Student,105.0,62.0,31.0,230.0,106.0,62.0,yes,no,Weekly,no,High
+PAT0182,46.0,F,Anambra,Trader,109.0,55.0,24.5,214.0,68.0,100.0,no,Yes,Rarely,1,Low
+PAT0183,53.0,M,Oyo,Teacher,103.0/80.0,,20.4,319.0,91.0,76.0,No,Yes,Daily,No,High
+PAT0184,30.0,M,Kaduna,Civil Servant,108.0,62.0,20.8,243.0,81.0,77.0,Yes,Never,Rarely,Yes,Low
+PAT0185,49.0,M,Borno,Unemployed,139.0,88.0,21.7,233.0,95.0,59.0,No,Never,Weekly,1,Low
+PAT0186,24.0,Female,Lagos,Civil Servant,108.0,75.0,19.9,169.0,115.0,68.0,No,No,Weekly,Yes,Low
+PAT0187,68.0,Female,Enugu,Farmer,170.0,120.0,34.9,221.0,111.0,64.0,No,yes,daily,yes,High
+PAT0188,39.0,male,Abuja,Doctor,134.0,89.0,,260.0,101.0mg/dL,88.0,YES,No,Rarely,Yes,High
+PAT0189,45.0,M,Rivers,Civil Servant,147.0,86.0,31.3,193.0,95.0,81.0,No,yes,Daily,No,Low
+PAT0190,19.0,Male,Oyo,Doctor,135.0,85.0,28.8,195.0,122.0,68.0,Yes,Never,Weekly,No,Low
+PAT0191,59.0,Female,Oyo,Doctor,149.0,91.0,26.3,206.0,60.0,82.0,Yes,Yes,Rarely,Yes,High
+PAT0192,62.0,Female,Oyo,Farmer,108.0,70.0,26.4,173.0,76.0,72.0,No,Never,Weekly,1,High
+PAT0193,-74.0,female,Lagos,Farmer,154.0,110.0,24.0kg/m2,211.0,71.0,78.0,YES,No,daily,Yes,Low
+PAT0194,70.0,Male,Lagos,Farmer,128.0,63.0,24.4,210.0,120.0mg/dL,78.0,No,yes,Rarely,no,High
+PAT0195,23.0,Male,Abuja,Civil Servant,149.0,94.0,19.0,259.0,77.0,80.0,No,no,Rarely,no,Low
+PAT0196,45.0,Female,Borno,Student,96.0,59.0,31.4,192.0,63.0,79.0,yes,Occasionally,Rarely,No,High
+PAT0197,45.0,Female,Kaduna,Farmer,129.0,74.0,16.9,227.0,109.0,80.0,No,Yes,Weekly,yes,Low
+PAT0198,61.0,male,Oyo,Unemployed,128.0,88.0,20.7,194.0,72.0,90.0,No,Yes,Weekly,No,Low
+PAT0199,61.0,Male,Kano,Civil Servant,113.0,62.0,36.1,226.0,86.0,83.0,Yes,Yes,Weekly,yes,High
+PAT0200,37.0,male,Bauchi,Farmer,131.0,75.0,26.7,190.0,155.0,71.0,No,Occasionally,Rarely,No,High
+PAT0201,47.0,Male,Kano,Engineer,156.0,108.0,26.9,2230.0,115.0,74.0,Yes,no,Weekly,No,High
+PAT0202,28.0,male,Anambra,Doctor,111.0,84.0,29.2,229.0,90.0,90.0,Yes,yes,daily,No,Low
+PAT0203,72.0,Male,Kano,Unemployed,144.0,93.0,18.3,157.0,92.0,76.0,no,Yes,Weekly,No,High
+PAT0204,45.0,Male,Anambra,Farmer,102.0,57.0,19.0,244.0,118.0,71.0,Yes,Never,Daily,1,High
+PAT0205,42.0,F,Enugu,Trader,167.0,103.0,23.8,193.0,112.0,67.0,no,Never,Daily,Yes,High
+PAT0206,56.0,female,Bauchi,Doctor,141.0,100.0,21.5,181.0,97.0,78.0,no,no,Daily,No,Low
+PAT0207,50.0,male,Kano,Doctor,160.0,105.0,25.6,172.0,98.0,65.0,No,No,Weekly,No,Low
+PAT0208,18.0,M,Enugu,Farmer,138.0,89.0,28.4,212.0,60.0,90.0,No,Yes,Weekly,no,Low
+PAT0209,74.0,female,Rivers,Student,133.0,89.0,32.9,200.0,60.0,63.0,Yes,yes,Daily,Yes,High
+PAT0210,44.0,Male,Kaduna,Teacher,141.0,91.0,30.1,215.0,91.0,93.0,yes,no,Rarely,No,High
+PAT0211,74.0,female,Enugu,Student,122.0,92.0,21.0,216.0,79.0,72.0,No,Yes,Rarely,Yes,High
+PAT0212,69.0,Female,Kaduna,Farmer,93.0,54.0,24.1,224.0,110.0,62.0,yes,yes,Daily,No,Low
+PAT0213,30.0,F,Kano,Doctor,134.0,80.0,22.8,311.0,100.0,77.0,Yes,No,Rarely,no,High
+PAT0214,58.0,male,Borno,Unemployed,110.0,60.0,20.9,202.0,76.0,64.0,0,Never,Never,yes,High
+PAT0215,,F,Enugu,Trader,103.0,63.0,19.8,171.0,99.0,75.0,Yes,No,weekly,yes,Low
+PAT0216,56.0,M,Bauchi,Unemployed,138.0,81.0,34.3,119.0,85.0,68.0,No,Yes,Rarely,No,High
+PAT0217,23.0,Female,Kano,Unemployed,119.0,79.0,26.1kg/m2,152.0,147.0,,No,No,Weekly,no,Low
+PAT0218,,male,Oyo,Doctor,146.0,95.0,24.9,249.0,105.0,77.0,Yes,No,Never,No,High
+PAT0219,44.0,Male,Lagos,Student,109.0,62.0,28.4,229.0,60.0,61.0,No,Yes,Rarely,1,Low
+PAT0220,26.0,female,Enugu,Trader,116.0,80.0,,146.0,141.0,68.0,no,Never,Weekly,No,Low
+PAT0221,54.0,F,Bauchi,Civil Servant,148.0,108.0,31.6,299.0,79.0,83.0,no,Yes,daily,No,High
+PAT0222,50.0,Male,Rivers,Engineer,131.0,88.0,22.3,2130.0,71.0,90.0,1,No,Weekly,Yes,High
+PAT0223,68.0,F,Oyo,Doctor,95.0,50.0,28.0,218.0,149.0,74.0,No,Yes,weekly,No,High
+PAT0224,590.0,M,Rivers,Farmer,130.0,100.0,21.4,290.0,104.0,62.0,No,Yes,Never,Yes,High
+PAT0225,61.0,F,Kano,Civil Servant,155.0,107.0,25.0,270.0,113.0,88.0,Yes,No,Rarely,no,High
+PAT0226,41.0,F,Lagos,Engineer,115.0,,26.3,231.0,113.0,83.0,No,Yes,Never,No,Low
+PAT0227,32.0,Male,Enugu,Farmer,137.0,98.0,26.8,233.0,90.0,91.0,Yes,yes,Rarely,0,High
+PAT0228,71.0,M,Enugu,Unemployed,108.0,81.0,26.6,237.0,81.0,78.0,No,Yes,Rarely,Yes,High
+PAT0229,49.0,female,Borno,Teacher,122.0,81.0,30.0kg/m2,190.0,85.0,69.0,No,no,daily,Yes,Low
+PAT0230,-49.0,Female,Borno,Farmer,147.0,93.0,23.0,211.0,135.0,81.0,No,Yes,Rarely,no,High
+PAT0231,41.0,M,Kano,Trader,129.0,87.0,26.9,223.0,100.0,79.0,No,Yes,daily,No,Low
+PAT0232,58.0,Female,Kano,Trader,151.0,92.0,22.2,,128.0mg/dL,68.0,0,No,daily,No,Low
+PAT0233,69.0,Female,Lagos,Teacher,134.0,91.0,40.6,161.0,93.0,77.0,No,Never,weekly,no,Low
+PAT0234,66.0,M,Borno,Civil Servant,169.0,89.0,21.4,189.0,76.0,73.0,YES,yes,Never,No,High
+PAT0235,66.0,M,Bauchi,Engineer,94.0,61.0,22.5,160.0,60.0,84.0,no,Never,Rarely,Yes,Low
+PAT0236,69.0,Male,Bauchi,Farmer,121.0,89.0,,,111.0,81.0,No,Yes,Weekly,no,High
+PAT0237,29.0,F,Lagos,Trader,103.0,68.0,23.9,129.0,137.0,62.0,No,Never,Never,Yes,Low
+PAT0238,56.0,Male,Bauchi,Civil Servant,105.0,82.0,30.4,214.0,73.0,61.0,Yes,Yes,Weekly,no,Low
+PAT0239,19.0,Male,Anambra,Teacher,105.0,66.0,26.8kg/m2,135.0,108.0,74.0,no,No,Weekly,Yes,Low
+PAT0240,20.0,Male,Kaduna,Student,128.0/91.0,,24.0,184.0,61.0,75.0,No,yes,Weekly,No,Low
+PAT0241,66.0,Male,Lagos,Doctor,130.0,77.0,22.2,220.0,81.0,84.0,YES,No,daily,Yes,High
+PAT0242,54.0,Female,Lagos,Student,134.0,95.0,22.1,232.0,102.0,81.0,No,Occasionally,daily,yes,High
+PAT0243,66.0,M,Abuja,Student,103.0,69.0,24.0,227.0,60.0,,no,Yes,Rarely,Yes,Low
+PAT0244,73.0,F,Oyo,Trader,119.0,76.0,25.1,213.0,95.0,69.0,no,Occasionally,Rarely,no,High
+PAT0245,34.0,Male,Oyo,Unemployed,106.0,50.0,21.8,,74.0,69.0,No,yes,Rarely,No,Low
+PAT0246,66.0,male,Anambra,Unemployed,144.0,92.0,25.5,239.0,110.0,63.0,No,yes,Rarely,Yes,High
+PAT0247,19.0,F,Borno,Teacher,108.0,72.0,20.5,156.0,91.0mg/dL,84.0,No,Yes,Weekly,yes,Low
+PAT0248,19.0,Female,Kano,Farmer,121.0,85.0,29.8,244.0,118.0,75.0,No,No,Weekly,No,Low
+PAT0249,45.0,female,Kano,Unemployed,136.0,101.0,30.7,225.0,88.0mg/dL,53.0,No,Occasionally,Weekly,Yes,High
+PAT0250,71.0,female,Rivers,Student,113.0,90.0,22.5,254.0,61.0,77.0,1,No,Rarely,Yes,High
+PAT0251,40.0,Male,Anambra,Unemployed,139.0,100.0,22.2,201.0,60.0,78.0,No,no,Rarely,No,Low
+PAT0252,54.0,Female,Lagos,Student,157.0,98.0,26.9,167.0,60.0,73.0,YES,Occasionally,Rarely,Yes,High
+PAT0253,49.0,female,Anambra,Engineer,129.0,81.0,32.3,148.0,111.0,79.0,no,No,weekly,Yes,Low
+PAT0254,50.0,F,Anambra,Trader,143.0,99.0,33.4,153.0,159.0,60.0,No,yes,Daily,No,High
+PAT0255,18.0,Male,Anambra,Trader,84.0,59.0,19.0,135.0,106.0,95.0,0,no,Weekly,No,Low
+PAT0256,36.0,F,Oyo,Farmer,116.0,88.0,31.0,238.0,137.0,80.0,No,Yes,Weekly,No,Low
+PAT0257,19.0,male,Anambra,Unemployed,129.0,104.0,25.7,243.0,123.0,54.0,1,Yes,Daily,Yes,Low
+PAT0258,70.0,F,Kaduna,Unemployed,104.0,86.0,25.8,2220.0,82.0,75.0,No,No,Weekly,0,Low
+PAT0259,61.0,F,Kano,Doctor,129.0/96.0,,28.5,199.0,127.0,80.0,No,No,Weekly,no,Low
+PAT0260,43.0,male,Rivers,Civil Servant,146.0,99.0,,282.0,83.0,62.0,No,no,Rarely,No,Low
+PAT0261,49.0,Male,Kaduna,Engineer,87.0,67.0,31.5,,84.0,81.0,No,Yes,Weekly,Yes,Low
+PAT0262,23.0,Male,Rivers,Trader,101.0,79.0,33.1,209.0,90.0,95.0,No,Occasionally,Never,1,Low
+PAT0263,49.0,M,Abuja,Engineer,129.0,83.0,33.3,198.0,91.0,67.0,No,Yes,Rarely,No,High
+PAT0264,72.0,female,Rivers,Trader,134.0,83.0,16.8,186.0,112.0,80.0,No,yes,Daily,No,High
+PAT0265,21.0,Female,Kano,Engineer,140.0,85.0,24.9,225.0,78.0,78.0,0,yes,Never,No,Low
+PAT0266,72.0,M,Kano,Teacher,127.0,76.0,16.3,,117.0,87.0,No,Yes,Daily,yes,High
+PAT0267,28.0,F,Anambra,Student,134.0,76.0,22.2,172.0,117.0,74.0,No,Yes,Never,Yes,Low
+PAT0268,73.0,Female,Enugu,Trader,143.0,95.0,15.0,227.0,104.0,62.0,yes,Never,weekly,yes,High
+PAT0269,34.0,F,Abuja,Engineer,117.0,68.0,28.3,180.0,143.0,86.0,no,Never,Weekly,yes,Low
+PAT0270,55.0,male,Lagos,Unemployed,113.0,67.0,27.1,205.0,127.0,63.0,YES,No,daily,No,High
+PAT0271,41.0,M,Bauchi,Civil Servant,122.0/85.0,,23.8,186.0,122.0,97.0,No,No,Never,no,Low
+PAT0272,22.0,M,Rivers,Teacher,129.0,85.0,22.0,200.0,97.0,82.0,Yes,No,daily,Yes,Low
+PAT0273,69.0,Female,Enugu,Teacher,112.0,76.0,27.6,173.0,104.0,68.0,No,Yes,Rarely,No,Low
+PAT0274,51.0,M,Anambra,Civil Servant,117.0,87.0,20.9,174.0,108.0,88.0,No,no,Weekly,No,Low
+PAT0275,23.0,Female,Oyo,Engineer,133.0,93.0,20.6,167.0,95.0,75.0,1,Never,daily,No,Low
+PAT0276,39.0,Female,Lagos,Unemployed,128.0,95.0,20.0,234.0,86.0,72.0,No,No,Weekly,No,Low
+PAT0277,28.0,M,Borno,Farmer,121.0,79.0,25.0,207.0,60.0,67.0,YES,Occasionally,Weekly,No,Low
+PAT0278,65.0,Male,Enugu,Civil Servant,90.0,71.0,23.1,237.0,113.0,52.0,No,Yes,Weekly,Yes,High
+PAT0279,33.0,Male,Oyo,Engineer,125.0,84.0,24.1,241.0,121.0,82.0,YES,no,Weekly,No,Low
+PAT0280,50.0,M,Abuja,Civil Servant,106.0,70.0,28.6,182.0,66.0,55.0,Yes,No,Rarely,No,Low
+PAT0281,26.0,Female,Anambra,Civil Servant,145.0,106.0,30.8,235.0,110.0,65.0,1,No,Never,yes,High
+PAT0282,23.0,Female,Lagos,Trader,119.0,,33.3,199.0,80.0,80.0,0,No,daily,Yes,Low
+PAT0283,33.0,F,Lagos,Engineer,105.0,84.0,26.3,194.0,86.0,69.0,YES,No,Daily,No,Low
+PAT0284,46.0,F,Lagos,Farmer,124.0,78.0,27.7,250.0,128.0,77.0,Yes,no,weekly,Yes,High
+PAT0285,20.0,Male,Abuja,Student,150.0,88.0,,222.0,70.0,60.0,Yes,no,daily,Yes,Low
+PAT0286,37.0,male,Rivers,Trader,138.0,95.0,17.6,186.0,70.0,71.0,yes,No,Daily,No,Low
+PAT0287,,Female,Borno,Civil Servant,129.0,81.0,24.2,220.0,140.0,77.0,Yes,Never,Weekly,Yes,High
+PAT0288,36.0,F,Abuja,Student,98.0,80.0,24.2,149.0,91.0,64.0,Yes,No,Never,No,Low
+PAT0289,43.0,M,Bauchi,Doctor,157.0,99.0,23.4,210.0,126.0,95.0,No,no,Rarely,No,Low
+PAT0290,20.0,female,Borno,Student,113.0,76.0,25.8,140.0,60.0,67.0,No,Yes,Never,0,Low
+PAT0291,36.0,F,Kano,Civil Servant,144.0/82.0,,24.9,161.0,60.0,92.0,No,Yes,Never,0,Low
+PAT0292,37.0,F,Anambra,Civil Servant,118.0,83.0,21.1,223.0,72.0,73.0,Yes,No,Rarely,No,Low
+PAT0293,49.0,F,Abuja,Unemployed,142.0,86.0,25.2,100.0,83.0,56.0,Yes,yes,Daily,yes,High
+PAT0294,24.0,Male,Oyo,Engineer,151.0,104.0,22.8,272.0,60.0,61.0,No,yes,Rarely,Yes,High
+PAT0295,69.0,Male,Borno,Engineer,138.0,,15.0,233.0,104.0,77.0,No,No,Daily,No,High
+PAT0296,58.0,F,Bauchi,Trader,140.0,75.0,19.0,126.0,106.0,87.0,Yes,Yes,Rarely,yes,High
+PAT0297,50.0,Female,Kano,Farmer,123.0,81.0,26.4,296.0,73.0,96.0,No,No,Never,Yes,High
+PAT0298,-57.0,F,Rivers,Trader,116.0,76.0,31.5,307.0,75.0,77.0,0,no,Rarely,Yes,Low
+PAT0299,56.0,Male,Oyo,Teacher,128.0,90.0,15.0,,78.0,61.0,YES,no,weekly,Yes,High
+PAT0300,35.0,M,Borno,Civil Servant,118.0,89.0,21.6,163.0,66.0mg/dL,78.0,YES,Yes,Rarely,No,Low
+PAT0301,,Female,Anambra,Student,174.0,120.0,28.2,267.0,60.0,65.0,1,Yes,Never,No,High
+PAT0302,18.0,Female,Oyo,Doctor,105.0,75.0,30.4,186.0,93.0,80.0,No,Never,Rarely,No,Low
+PAT0303,28.0,M,Kano,Civil Servant,145.0,96.0,23.9,206.0,84.0,64.0,yes,Yes,weekly,No,Low
+PAT0304,45.0,M,Oyo,Civil Servant,135.0,76.0,22.6,249.0,87.0,50.0,No,Yes,Never,No,Low
+PAT0305,74.0,M,Kaduna,Trader,130.0,86.0,32.1,194.0,70.0,91.0,No,Yes,Weekly,yes,High
+PAT0306,420.0,Female,Enugu,Doctor,155.0,102.0,30.0,1900.0,115.0,72.0,No,No,weekly,Yes,High
+PAT0307,67.0,Female,Rivers,Doctor,131.0,84.0,30.3,149.0,156.0,,No,No,Rarely,yes,High
+PAT0308,40.0,F,Kano,Doctor,112.0,78.0,23.7,175.0,74.0,87.0,No,yes,Daily,No,Low
+PAT0309,48.0,Male,Oyo,Trader,131.0,94.0,31.6,190.0,130.0,98.0,Yes,No,Rarely,yes,High
+PAT0310,47.0,M,Enugu,Civil Servant,121.0,72.0,16.3,150.0,104.0,84.0,no,no,daily,yes,Low
+PAT0311,59.0,M,Enugu,Trader,135.0,81.0,31.7,154.0,96.0,76.0,Yes,Yes,Rarely,No,High
+PAT0312,52.0,F,Oyo,Engineer,141.0,91.0,25.7,201.0,86.0,81.0,No,Never,Weekly,Yes,High
+PAT0313,24.0,M,Anambra,Engineer,108.0,65.0,26.6,126.0,93.0,,Yes,yes,Never,No,Low
+PAT0314,,male,Kaduna,Trader,149.0,84.0,21.3,165.0,124.0,75.0,No,yes,Never,0,Low
+PAT0315,43.0,female,Abuja,Doctor,120.0,70.0,16.9,278.0,67.0,,Yes,No,Rarely,No,Low
+PAT0316,65.0,Female,Kaduna,Unemployed,134.0,77.0,26.5,186.0,88.0mg/dL,66.0,0,Yes,Weekly,Yes,High
+PAT0317,74.0,Male,Oyo,Civil Servant,137.0,99.0,28.8,181.0,126.0mg/dL,75.0,No,No,Weekly,Yes,High
+PAT0318,69.0,Female,Rivers,Trader,132.0,99.0,29.5,186.0,120.0,79.0,No,yes,Never,0,High
+PAT0319,66.0,Female,Abuja,Trader,123.0,71.0,29.0,187.0,67.0,81.0,No,Yes,Never,Yes,High
+PAT0320,19.0,M,Kano,Trader,115.0,79.0,27.8,223.0,90.0,80.0,No,Occasionally,Weekly,Yes,Low
+PAT0321,18.0,female,Kaduna,Unemployed,120.0,85.0,21.4,220.0,113.0,59.0,no,Occasionally,Weekly,No,Low
+PAT0322,,Male,Oyo,Unemployed,156.0,89.0,29.8,184.0,112.0,90.0,No,No,Daily,0,High
+PAT0323,29.0,Male,Kaduna,Teacher,108.0,71.0,20.8,191.0,119.0,89.0,yes,Occasionally,Never,No,Low
+PAT0324,220.0,Female,Abuja,Engineer,111.0,92.0,31.5,253.0,105.0,74.0,0,Yes,Daily,No,High
+PAT0325,54.0,F,Bauchi,Student,110.0,77.0,25.6,140.0,109.0,80.0,1,Yes,Daily,No,High
+PAT0326,49.0,M,Borno,Doctor,128.0,81.0,25.7,198.0,104.0,72.0,yes,Yes,Daily,Yes,High
+PAT0327,,Male,Kaduna,Farmer,95.0,57.0,30.3,205.0,134.0,84.0,No,yes,Rarely,no,High
+PAT0328,26.0,female,Kano,Unemployed,98.0,50.0,31.0,169.0,84.0,,No,Yes,Weekly,No,Low
+PAT0329,58.0,F,Kano,Student,120.0,82.0,29.9,195.0,96.0,91.0,No,Occasionally,Weekly,No,Low
+PAT0330,52.0,Male,Lagos,Unemployed,99.0,80.0,21.9,164.0,70.0,83.0,yes,Yes,daily,no,Low
+PAT0331,360.0,F,Kaduna,Doctor,101.0,59.0,29.8,225.0,65.0,84.0,no,No,Weekly,0,Low
+PAT0332,65.0,F,Borno,Farmer,99.0,50.0,21.9,146.0,103.0,74.0,yes,Never,Weekly,No,Low
+PAT0333,33.0,Female,Anambra,Teacher,108.0,65.0,29.9,242.0,77.0,58.0,no,No,weekly,Yes,Low
+PAT0334,20.0,Male,Enugu,Trader,140.0,98.0,18.9,197.0,94.0,86.0,Yes,No,Weekly,no,Low
+PAT0335,37.0,Male,Borno,Teacher,144.0,90.0,25.5,182.0,135.0mg/dL,,Yes,yes,Rarely,No,High
+PAT0336,41.0,Male,Enugu,Unemployed,163.0,99.0,21.9,160.0,134.0,86.0,No,No,Daily,1,High
+PAT0337,71.0,male,Enugu,Teacher,163.0,106.0,30.3,241.0,151.0mg/dL,66.0,0,No,Never,1,High
+PAT0338,73.0,female,Bauchi,Student,141.0,93.0,31.6,,136.0,56.0,no,No,Weekly,Yes,High
+PAT0339,50.0,Male,Lagos,Civil Servant,146.0,84.0,27.0,153.0,155.0,75.0,yes,No,Never,0,High
+PAT0340,41.0,Male,Borno,Unemployed,128.0,81.0,,242.0,106.0mg/dL,89.0,yes,Occasionally,Weekly,No,Low
+PAT0341,69.0,Male,Borno,Unemployed,135.0,84.0,29.5,164.0,72.0,63.0,yes,Never,Weekly,No,Low
+PAT0342,28.0,Male,Bauchi,Student,164.0,101.0,31.6,196.0,70.0,94.0,0,No,Never,Yes,High
+PAT0343,66.0,male,Kaduna,Engineer,132.0,78.0,26.2,233.0,130.0,83.0,no,No,weekly,no,High
+PAT0344,25.0,Female,Kaduna,Farmer,148.0,104.0,23.5,206.0,96.0,77.0,No,No,Daily,No,Low
+PAT0345,53.0,Female,Kaduna,Trader,106.0,64.0,29.2,269.0,98.0,70.0,yes,Occasionally,Never,No,High
+PAT0346,55.0,Male,Rivers,Student,112.0,57.0,,167.0,81.0,71.0,No,Yes,Weekly,1,Low
+PAT0347,57.0,M,Enugu,Farmer,131.0,87.0,30.5,192.0,84.0,80.0,yes,No,Rarely,No,High
+PAT0348,37.0,Female,Rivers,Doctor,128.0,89.0,22.4,195.0,105.0,85.0,No,no,Weekly,No,Low
+PAT0349,52.0,F,Lagos,Farmer,113.0,67.0,24.8,225.0,69.0,68.0,Yes,Occasionally,Rarely,no,High
+PAT0350,65.0,Male,Bauchi,Doctor,173.0,108.0,30.6,252.0,101.0,65.0,no,Yes,Weekly,yes,High
+PAT0351,42.0,F,Borno,Student,128.0,78.0,23.9,203.0,133.0,72.0,No,No,Weekly,1,High
+PAT0352,52.0,M,Enugu,Unemployed,116.0,73.0,29.2,194.0,60.0,92.0,YES,No,Daily,1,High
+PAT0353,42.0,Male,Rivers,Unemployed,128.0,92.0,31.7,141.0,60.0,60.0,No,Yes,Daily,No,Low
+PAT0354,46.0,Female,Rivers,Engineer,126.0,81.0,26.6,204.0,112.0,89.0,No,yes,daily,No,Low
+PAT0355,35.0,male,Oyo,Student,129.0,91.0,27.6,,129.0,76.0,No,no,weekly,No,Low
+PAT0356,63.0,female,Rivers,Doctor,93.0,53.0,25.4,225.0,83.0,55.0,Yes,yes,Never,No,High
+PAT0357,35.0,Female,Anambra,Farmer,151.0,95.0,26.6kg/m2,184.0,60.0,69.0,No,Yes,Weekly,No,Low
+PAT0358,19.0,Female,Borno,Farmer,152.0,106.0,20.4,190.0,131.0,82.0,No,Yes,Weekly,yes,High
+PAT0359,71.0,female,Anambra,Doctor,154.0/94.0,,24.5,142.0,75.0,97.0,Yes,No,Never,Yes,High
+PAT0360,52.0,M,Borno,Teacher,132.0,94.0,19.6,128.0,86.0,59.0,No,No,weekly,Yes,Low
+PAT0361,33.0,Male,Bauchi,Engineer,138.0,85.0,21.5,274.0,103.0,45.0,No,Never,Rarely,Yes,High
+PAT0362,-58.0,female,Borno,Civil Servant,108.0,68.0,16.0,205.0,78.0,59.0,yes,Yes,Never,Yes,Low
+PAT0363,53.0,Male,Anambra,Unemployed,142.0/106.0,,27.3,216.0,73.0,89.0,Yes,Yes,weekly,No,Low
+PAT0364,50.0,M,Borno,Trader,130.0,81.0,34.5,164.0,74.0,53.0,No,No,daily,Yes,Low
+PAT0365,21.0,Male,Bauchi,Farmer,116.0,77.0,23.7,235.0,141.0,93.0,no,No,Weekly,Yes,Low
+PAT0366,50.0,Male,Bauchi,Trader,142.0,97.0,30.8,228.0,124.0,90.0,No,No,Daily,Yes,High
+PAT0367,31.0,Female,Lagos,Civil Servant,143.0,95.0,31.6,168.0,109.0,77.0,0,Never,Rarely,yes,Low
+PAT0368,38.0,F,Borno,Student,126.0,84.0,20.0,158.0,60.0,67.0,yes,Yes,Rarely,no,Low
+PAT0369,65.0,Female,Oyo,Trader,134.0,87.0,21.1,171.0,109.0,76.0,yes,no,Weekly,Yes,High
+PAT0370,370.0,Male,Kaduna,Civil Servant,104.0,57.0,31.0,199.0,108.0,82.0,Yes,No,Weekly,yes,Low
+PAT0371,73.0,Male,Kano,Unemployed,150.0,100.0,25.5,207.0,63.0,81.0,no,No,Never,No,Low
+PAT0372,25.0,M,Bauchi,Doctor,107.0,64.0,19.5,202.0,101.0,96.0,no,Occasionally,Rarely,Yes,Low
+PAT0373,24.0,female,Abuja,Teacher,111.0,78.0,22.8,252.0,121.0,72.0,No,No,Weekly,No,Low
+PAT0374,20.0,Female,Kaduna,Unemployed,126.0,93.0,28.1,171.0,109.0,59.0,No,yes,Rarely,Yes,Low
+PAT0375,34.0,M,Enugu,Farmer,147.0,81.0,22.0,157.0,78.0,57.0,No,No,Rarely,yes,Low
+PAT0376,50.0,male,Borno,Civil Servant,147.0,107.0,15.0,200.0,95.0,55.0,yes,No,Never,Yes,High
+PAT0377,65.0,M,Anambra,Trader,125.0,78.0,24.4,132.0,113.0,77.0,No,Never,Weekly,0,Low
+PAT0378,29.0,Male,Kano,Farmer,140.0,90.0,24.8,228.0,96.0,72.0,yes,Never,Never,Yes,High
+PAT0379,68.0,Female,Abuja,Teacher,91.0,52.0,26.0,204.0,126.0,75.0,Yes,Never,Rarely,No,Low
+PAT0380,39.0,Female,Kaduna,Doctor,111.0,74.0,32.3,186.0,105.0,69.0,no,yes,Daily,1,Low
+PAT0381,72.0,Female,Borno,Student,111.0,73.0,26.3,184.0,114.0,62.0,No,No,Never,Yes,High
+PAT0382,39.0,Female,Lagos,Farmer,150.0,106.0,27.2,236.0,116.0,82.0,No,no,Weekly,No,High
+PAT0383,63.0,F,Enugu,Student,138.0,84.0,31.3kg/m2,235.0,68.0,45.0,No,no,Weekly,No,Low
+PAT0384,47.0,Female,Kano,Civil Servant,129.0,97.0,26.1,190.0,96.0,65.0,Yes,Yes,Weekly,No,High
+PAT0385,55.0,Female,Oyo,Teacher,131.0,90.0,36.7kg/m2,2240.0,87.0,84.0,Yes,No,Weekly,Yes,High
+PAT0386,55.0,M,Lagos,Trader,156.0,102.0,19.7,235.0,121.0,64.0,No,Never,Weekly,Yes,High
+PAT0387,62.0,Female,Abuja,Teacher,122.0,78.0,21.3,213.0,107.0,80.0,No,No,Never,No,Low
+PAT0388,68.0,male,Kano,Teacher,99.0,,29.1,,90.0mg/dL,65.0,0,No,Daily,No,Low
+PAT0389,71.0,M,Lagos,Engineer,147.0,94.0,32.3,215.0,63.0mg/dL,70.0,no,Never,weekly,No,High
+PAT0390,25.0,Female,Enugu,Teacher,129.0,85.0,25.0,158.0,60.0,82.0,No,Yes,Rarely,Yes,Low
+PAT0391,44.0,F,Oyo,Teacher,144.0,92.0,20.9kg/m2,203.0,103.0,60.0,Yes,No,Weekly,No,Low
+PAT0392,44.0,M,Lagos,Unemployed,124.0,75.0,34.8,191.0,77.0,84.0,No,no,Daily,No,Low
+PAT0393,51.0,M,Rivers,Farmer,108.0,72.0,22.0,184.0,112.0,76.0,yes,No,Rarely,No,High
+PAT0394,38.0,Female,Oyo,Trader,133.0,80.0,27.7,1310.0,60.0,90.0,No,no,Rarely,No,Low
+PAT0395,47.0,Female,Abuja,Unemployed,125.0,84.0,32.6,159.0,135.0,77.0,Yes,Yes,Daily,No,High
+PAT0396,50.0,F,Enugu,Unemployed,129.0,82.0,23.8,181.0,112.0,62.0,No,No,Weekly,No,Low
+PAT0397,45.0,Male,Borno,Farmer,157.0,108.0,22.9,2360.0,97.0,96.0,no,Yes,Never,Yes,High
+PAT0398,,Female,Anambra,Farmer,103.0,75.0,23.2,211.0,137.0,63.0,No,Occasionally,Daily,No,High
+PAT0399,50.0,Male,Anambra,Civil Servant,131.0,93.0,30.5,238.0,119.0,72.0,no,No,daily,Yes,High
+PAT0400,22.0,F,Anambra,Farmer,109.0,73.0,31.3,250.0,83.0mg/dL,86.0,No,No,Rarely,No,Low
+PAT0401,65.0,Female,Kano,Engineer,80.0,55.0,26.2,213.0,97.0,52.0,Yes,Yes,Weekly,No,Low
+PAT0402,36.0,male,Abuja,Engineer,124.0,78.0,35.4,206.0,60.0,92.0,No,Yes,Weekly,No,High
+PAT0403,21.0,M,Enugu,Unemployed,126.0,87.0,26.2,161.0,122.0,61.0,No,No,Daily,No,Low
+PAT0404,52.0,male,Oyo,Student,137.0,95.0,32.5,279.0,88.0,70.0,Yes,Yes,Never,Yes,High
+PAT0405,66.0,female,Kano,Civil Servant,121.0,66.0,23.8,143.0,60.0,78.0,Yes,No,Daily,No,Low
+PAT0406,34.0,male,Abuja,Student,95.0,,37.7,205.0,65.0,74.0,Yes,No,Weekly,1,Low
+PAT0407,61.0,male,Borno,Student,109.0,82.0,33.9,233.0,117.0,84.0,Yes,Never,Rarely,No,High
+PAT0408,45.0,Female,Rivers,Unemployed,151.0,95.0,25.4,234.0,135.0,56.0,No,no,Weekly,yes,High
+PAT0409,-47.0,M,Enugu,Doctor,108.0,66.0,33.2,154.0,96.0,84.0,YES,No,Rarely,no,Low
+PAT0410,46.0,Female,Anambra,Unemployed,157.0,99.0,32.9,183.0,70.0,85.0,No,No,Never,No,Low
+PAT0411,63.0,Male,Lagos,Trader,146.0,83.0,33.8,168.0,60.0,87.0,No,no,Rarely,Yes,High
+PAT0412,70.0,M,Enugu,Trader,119.0,78.0,15.0,121.0,130.0,56.0,No,no,weekly,No,Low
+PAT0413,23.0,M,Bauchi,Farmer,110.0,72.0,29.6,205.0,106.0,57.0,No,Yes,Never,Yes,High
+PAT0414,52.0,Female,Abuja,Farmer,146.0,96.0,28.7,171.0,87.0,71.0,Yes,Occasionally,Weekly,No,High
+PAT0415,58.0,M,Kaduna,Doctor,120.0,81.0,28.4kg/m2,260.0,81.0,,No,Yes,Weekly,yes,High
+PAT0416,54.0,male,Borno,Farmer,94.0,55.0,27.1,225.0,112.0mg/dL,53.0,No,Yes,Weekly,yes,Low
+PAT0417,41.0,M,Rivers,Trader,136.0,91.0,27.2,202.0,111.0,70.0,Yes,Yes,Rarely,No,High
+PAT0418,46.0,F,Borno,Student,133.0,90.0,32.4,181.0,73.0mg/dL,78.0,no,Occasionally,Weekly,No,High
+PAT0419,66.0,male,Enugu,Unemployed,148.0,92.0,28.7,205.0,66.0,109.0,No,No,weekly,No,High
+PAT0420,63.0,female,Kaduna,Teacher,132.0,89.0,27.1kg/m2,190.0,68.0,82.0,No,Never,Rarely,no,Low
+PAT0421,70.0,M,Bauchi,Engineer,114.0,75.0,31.7,203.0,83.0,96.0,Yes,No,Weekly,yes,High
+PAT0422,48.0,male,Oyo,Teacher,150.0,92.0,28.1,276.0,78.0,74.0,No,No,Rarely,0,High
+PAT0423,52.0,female,Lagos,Teacher,152.0,101.0,28.6kg/m2,157.0,135.0,82.0,no,No,Weekly,Yes,High
+PAT0424,50.0,female,Kaduna,Trader,130.0/82.0,,35.3,193.0,82.0,73.0,No,Never,Never,No,Low
+PAT0425,69.0,Male,Abuja,Teacher,126.0,87.0,23.8,228.0,64.0,107.0,No,Yes,Rarely,No,Low
+PAT0426,38.0,Female,Anambra,Unemployed,99.0,62.0,18.4,184.0,65.0,67.0,No,No,Daily,Yes,Low
+PAT0427,49.0,Female,Bauchi,Doctor,113.0,63.0,26.4,263.0,90.0,68.0,Yes,Yes,Weekly,1,High
+PAT0428,40.0,Male,Lagos,Civil Servant,140.0,93.0,27.1,227.0,60.0,85.0,yes,Never,daily,0,Low
+PAT0429,50.0,M,Rivers,Farmer,114.0,76.0,29.6,171.0,93.0,77.0,No,No,Rarely,Yes,High
+PAT0430,20.0,F,Anambra,Civil Servant,96.0,54.0,26.5,208.0,62.0,70.0,Yes,No,weekly,Yes,Low
+PAT0431,35.0,male,Enugu,Student,195.0,120.0,29.8,172.0,124.0,87.0,Yes,No,Daily,No,High
+PAT0432,42.0,Male,Kaduna,Unemployed,96.0,68.0,38.5,168.0,98.0,75.0,No,Occasionally,Weekly,no,Low
+PAT0433,59.0,male,Lagos,Unemployed,170.0,104.0,30.0,194.0,148.0,74.0,No,Never,Weekly,No,High
+PAT0434,48.0,M,Kano,Engineer,119.0,72.0,30.9,251.0,89.0,78.0,Yes,no,Rarely,Yes,High
+PAT0435,71.0,F,Oyo,Unemployed,123.0,79.0,25.4,2300.0,60.0,54.0,no,No,Weekly,Yes,Low
+PAT0436,20.0,female,Oyo,Farmer,112.0,67.0,19.1,199.0,131.0,56.0,No,Yes,Weekly,No,Low
+PAT0437,57.0,M,Bauchi,Unemployed,141.0/97.0,,15.0,231.0,108.0,88.0,No,Occasionally,Rarely,1,High
+PAT0438,63.0,Female,Rivers,Teacher,96.0,64.0,23.4,211.0,111.0,67.0,No,No,Rarely,No,Low
+PAT0439,41.0,male,Bauchi,Engineer,88.0,50.0,15.0,153.0,70.0,,No,No,Weekly,No,Low
+PAT0440,67.0,Female,Kano,Farmer,157.0,95.0,28.6,194.0,94.0,94.0,No,No,Rarely,Yes,High
+PAT0441,49.0,Male,Abuja,Doctor,109.0,80.0,24.1,197.0,100.0,74.0,YES,Occasionally,Never,No,Low
+PAT0442,64.0,male,Rivers,Doctor,140.0,103.0,19.4,230.0,89.0,72.0,yes,No,Weekly,No,High
+PAT0443,39.0,Female,Borno,Doctor,103.0,71.0,26.7,177.0,60.0,86.0,Yes,yes,Weekly,No,Low
+PAT0444,40.0,F,Abuja,Doctor,139.0,89.0,22.3,163.0,164.0,68.0,No,Never,Weekly,No,Low
+PAT0445,19.0,Female,Rivers,Teacher,159.0,100.0,28.3,198.0,116.0,89.0,No,No,Never,no,Low
+PAT0446,44.0,male,Rivers,Unemployed,114.0,78.0,29.5,174.0,106.0,86.0,No,No,Never,Yes,High
+PAT0447,59.0,Male,Kano,Civil Servant,86.0,57.0,22.5,187.0,128.0,97.0,no,Occasionally,Weekly,No,Low
+PAT0448,190.0,female,Enugu,Farmer,159.0,90.0,24.8,197.0,111.0,67.0,No,Occasionally,Weekly,No,High
+PAT0449,43.0,F,Kano,Teacher,144.0,102.0,27.1,185.0,78.0,91.0,Yes,Never,daily,No,Low
+PAT0450,34.0,Male,Rivers,Doctor,116.0,86.0,19.0,239.0,126.0,82.0,yes,no,weekly,No,Low
+PAT0451,57.0,M,Lagos,Student,121.0,85.0,27.1,257.0,116.0,59.0,Yes,No,Rarely,no,High
+PAT0452,50.0,female,Abuja,Unemployed,103.0,58.0,18.8,235.0,79.0,45.0,no,Occasionally,weekly,No,Low
+PAT0453,26.0,Female,Kano,Civil Servant,153.0,94.0,28.8,129.0,115.0,65.0,yes,No,Rarely,Yes,High
+PAT0454,60.0,Male,Enugu,Student,114.0,59.0,23.8,174.0,89.0,79.0,No,Never,Never,No,Low
+PAT0455,71.0,Female,Kaduna,Engineer,97.0,76.0,18.8,193.0,100.0mg/dL,80.0,No,Occasionally,Weekly,No,Low
+PAT0456,65.0,M,Bauchi,Student,129.0,81.0,23.1,126.0,110.0,74.0,no,yes,Weekly,No,Low
+PAT0457,56.0,F,Rivers,Engineer,108.0,89.0,23.3,165.0,129.0,74.0,no,Never,Daily,No,Low
+PAT0458,46.0,F,Borno,Engineer,104.0,,31.3,192.0,79.0,73.0,No,Never,Never,Yes,Low
+PAT0459,59.0,Female,Kaduna,Doctor,116.0,68.0,26.9,182.0,104.0,87.0,No,Yes,weekly,No,Low
+PAT0460,72.0,Male,Oyo,Engineer,127.0,77.0,21.2,200.0,145.0,58.0,No,no,Rarely,No,Low
+PAT0461,-43.0,M,Anambra,Trader,97.0,67.0,34.2,145.0,91.0,78.0,Yes,Yes,Weekly,No,Low
+PAT0462,52.0,Female,Enugu,Farmer,153.0,85.0,29.1,182.0,100.0,65.0,Yes,No,Weekly,No,High
+PAT0463,67.0,Male,Borno,Farmer,139.0,87.0,24.3,206.0,145.0,64.0,Yes,Yes,Weekly,Yes,High
+PAT0464,42.0,female,Anambra,Doctor,118.0,72.0,18.2,,111.0,89.0,Yes,No,Weekly,No,High
+PAT0465,41.0,F,Enugu,Trader,107.0,84.0,23.9,218.0,60.0,63.0,No,Never,Rarely,0,Low
+PAT0466,30.0,F,Lagos,Student,123.0/81.0,,24.9,216.0,75.0,73.0,YES,Occasionally,weekly,No,Low
+PAT0467,24.0,male,Bauchi,Teacher,143.0,91.0,27.8,184.0,112.0,99.0,yes,No,Daily,No,High
+PAT0468,74.0,M,Kaduna,Student,140.0,86.0,29.0,205.0,106.0,85.0,Yes,No,Daily,No,High
+PAT0469,53.0,male,Abuja,Unemployed,146.0,102.0,,168.0,99.0,70.0,No,No,Rarely,0,Low
+PAT0470,62.0,Female,Enugu,Teacher,115.0,71.0,17.9,189.0,149.0,71.0,No,Occasionally,Weekly,0,Low
+PAT0471,37.0,Male,Abuja,Engineer,80.0,52.0,27.0,158.0,80.0,60.0,Yes,No,daily,No,Low
+PAT0472,18.0,Female,Bauchi,Civil Servant,150.0,92.0,25.2,243.0,93.0,91.0,0,no,Weekly,Yes,Low
+PAT0473,25.0,Female,Rivers,Teacher,122.0,67.0,39.4,189.0,60.0,87.0,No,Occasionally,Weekly,1,Low
+PAT0474,63.0,F,Oyo,Civil Servant,138.0,82.0,26.3,243.0,124.0,83.0,YES,No,Weekly,No,High
+PAT0475,33.0,Male,Kaduna,Farmer,158.0,99.0,22.9,212.0,75.0,85.0,No,Occasionally,Daily,No,Low
+PAT0476,31.0,Male,Bauchi,Civil Servant,174.0,111.0,26.6,165.0,121.0,66.0,No,Occasionally,Rarely,no,High
+PAT0477,29.0,Female,Bauchi,Farmer,112.0,,26.0,210.0,119.0,56.0,Yes,Occasionally,Weekly,No,High
+PAT0478,68.0,Female,Lagos,Trader,128.0,82.0,16.1,232.0,154.0,82.0,No,No,Weekly,Yes,Low
+PAT0479,40.0,F,Anambra,Trader,152.0,95.0,28.0,197.0,111.0,86.0,No,No,Rarely,no,High
+PAT0480,32.0,Female,Oyo,Doctor,108.0,81.0,24.4,203.0,86.0,94.0,no,Never,Daily,No,Low
+PAT0481,45.0,M,Kaduna,Doctor,113.0,,25.9,178.0,106.0,73.0,no,No,Daily,No,Low
+PAT0482,51.0,Female,Rivers,Engineer,113.0,72.0,21.6,201.0,76.0,71.0,no,yes,Rarely,No,Low
+PAT0483,19.0,M,Rivers,Teacher,124.0,83.0,20.5,210.0,103.0,72.0,yes,Yes,Rarely,No,Low
+PAT0484,49.0,male,Kano,Engineer,121.0,76.0,30.4,177.0,90.0mg/dL,83.0,no,Yes,weekly,Yes,Low
+PAT0485,40.0,Female,Bauchi,Farmer,113.0,51.0,31.5,157.0,93.0,72.0,No,No,Weekly,No,Low
+PAT0486,39.0,F,Enugu,Engineer,106.0,69.0,28.1,252.0,73.0,74.0,No,yes,Daily,No,Low
+PAT0487,68.0,Female,Lagos,Civil Servant,141.0,94.0,16.9,224.0,103.0,,yes,No,Daily,no,High
+PAT0488,42.0,Female,Oyo,Farmer,152.0,86.0,28.4,178.0,116.0,67.0,No,yes,Weekly,No,Low
+PAT0489,390.0,female,Rivers,Doctor,155.0,105.0,17.0,209.0,60.0,92.0,yes,No,Rarely,yes,High
+PAT0490,39.0,Male,Kaduna,Trader,115.0,73.0,22.7,141.0,78.0,83.0,No,no,Never,yes,Low
+PAT0491,66.0,Male,Kano,Doctor,142.0,95.0,30.3,121.0,99.0,53.0,Yes,yes,Rarely,No,High
+PAT0492,69.0,F,Kaduna,Teacher,130.0,82.0,29.3,243.0,60.0,69.0,0,No,Weekly,Yes,High
+PAT0493,59.0,Male,Lagos,Farmer,114.0,84.0,28.3,209.0,139.0,51.0,No,No,Rarely,no,High
+PAT0494,23.0,male,Enugu,Farmer,140.0,93.0,32.6,198.0,77.0,73.0,Yes,Yes,daily,No,High
+PAT0495,32.0,Female,Kano,Civil Servant,113.0,81.0,28.8,209.0,72.0,69.0,no,No,Weekly,Yes,Low
+PAT0496,71.0,female,Kano,Teacher,117.0,85.0,15.9,329.0,90.0,85.0,0,yes,Rarely,Yes,Low
+PAT0497,60.0,F,Anambra,Trader,97.0,54.0,24.2,235.0,98.0,64.0,Yes,No,weekly,yes,High
+PAT0498,54.0,M,Oyo,Student,116.0,69.0,25.8,158.0,76.0,80.0,no,No,Never,Yes,Low
+PAT0499,50.0,female,Kano,Farmer,130.0,88.0,25.2,133.0,120.0,82.0,0,no,Never,Yes,Low
+PAT0500,25.0,Female,Anambra,Farmer,156.0,98.0,22.9,242.0,105.0,78.0,0,Yes,Weekly,No,High
+PAT0501,70.0,female,Anambra,Civil Servant,118.0,75.0,20.8,234.0,74.0,89.0,0,Occasionally,Weekly,no,Low
+PAT0502,61.0,Male,Lagos,Engineer,104.0,78.0,38.0,223.0,82.0,100.0,No,Yes,Daily,No,Low
+PAT0503,61.0,Female,Abuja,Unemployed,155.0,98.0,24.1,167.0,60.0,76.0,No,Occasionally,Rarely,Yes,High
+PAT0504,220.0,Female,Kaduna,Trader,115.0,67.0,37.8,215.0,64.0,80.0,Yes,No,Daily,Yes,High
+PAT0505,56.0,M,Enugu,Doctor,90.0,52.0,20.3,171.0,105.0,64.0,Yes,No,Never,No,High
+PAT0506,21.0,Male,Borno,Teacher,128.0,101.0,29.3,227.0,74.0,63.0,No,No,Never,Yes,Low
+PAT0507,23.0,male,Kaduna,Farmer,119.0,76.0,27.1kg/m2,239.0,140.0,87.0,No,Yes,Rarely,No,High
+PAT0508,,male,Kano,Farmer,171.0,100.0,21.4,178.0,97.0,86.0,Yes,No,Daily,Yes,High
+PAT0509,49.0,female,Enugu,Doctor,135.0,,,245.0,61.0,63.0,No,Yes,Daily,1,High
+PAT0510,69.0,Male,Rivers,Trader,122.0,74.0,25.9,205.0,66.0,59.0,Yes,no,Never,No,Low
+PAT0511,47.0,M,Abuja,Unemployed,107.0,68.0,21.8,220.0,121.0,67.0,no,No,Rarely,Yes,Low
+PAT0512,64.0,Female,Rivers,Engineer,132.0,93.0,24.7,148.0,93.0,73.0,No,Never,Never,no,Low
+PAT0513,52.0,Female,Rivers,Farmer,154.0,107.0,15.0,209.0,120.0,70.0,No,No,Weekly,No,Low
+PAT0514,72.0,Female,Oyo,Unemployed,131.0,85.0,29.6,173.0,86.0,77.0,No,Occasionally,Rarely,No,High
+PAT0515,57.0,Female,Kaduna,Trader,108.0/67.0,,32.1,219.0,81.0,86.0,Yes,No,Never,no,High
+PAT0516,69.0,F,Borno,Doctor,136.0/91.0,,28.3,259.0,123.0,81.0,0,Yes,Rarely,No,High
+PAT0517,33.0,M,Lagos,Civil Servant,124.0,67.0,37.3,,74.0,81.0,No,No,Rarely,No,Low
+PAT0518,30.0,Female,Borno,Engineer,134.0,103.0,29.4,164.0,107.0,46.0,No,No,Never,No,Low
+PAT0519,67.0,Male,Rivers,Teacher,118.0,82.0,31.7,225.0,90.0,56.0,Yes,Yes,Weekly,Yes,High
+PAT0520,-59.0,Male,Kano,Farmer,117.0,83.0,32.2,216.0,117.0,65.0,No,No,Daily,Yes,Low
+PAT0521,47.0,Male,Abuja,Trader,117.0,67.0,15.0,282.0,140.0,67.0,Yes,no,Rarely,yes,High
+PAT0522,36.0,female,Bauchi,Civil Servant,144.0,104.0,28.1,210.0,85.0,85.0,No,Occasionally,Daily,No,Low
+PAT0523,34.0,Male,Borno,Teacher,118.0,73.0,19.1,177.0,81.0,64.0,No,No,Never,No,Low
+PAT0524,,Male,Rivers,Student,116.0,68.0,20.1,231.0,112.0,83.0,1,Occasionally,Never,No,High
+PAT0525,36.0,Female,Abuja,Trader,106.0,69.0,21.0,195.0,68.0,66.0,yes,Occasionally,daily,1,High
+PAT0526,45.0,male,Enugu,Trader,134.0,87.0,24.4,203.0,135.0mg/dL,61.0,Yes,Never,Rarely,0,High
+PAT0527,72.0,female,Kaduna,Teacher,131.0,77.0,29.3,163.0,131.0,61.0,Yes,No,Daily,No,High
+PAT0528,43.0,F,Anambra,Civil Servant,116.0,68.0,28.2,1950.0,70.0,102.0,No,Yes,Weekly,no,Low
+PAT0529,54.0,F,Oyo,Student,111.0,64.0,25.9,201.0,60.0,,Yes,No,Never,yes,Low
+PAT0530,43.0,M,Abuja,Unemployed,163.0,,29.6,195.0,66.0,83.0,Yes,yes,Weekly,No,High
+PAT0531,70.0,Male,Kano,Unemployed,87.0,53.0,29.9,176.0,66.0,56.0,no,No,Rarely,Yes,High
+PAT0532,40.0,female,Kano,Doctor,135.0,77.0,28.2,212.0,115.0,92.0,Yes,Yes,Never,Yes,High
+PAT0533,26.0,F,Abuja,Civil Servant,151.0,93.0,17.4,163.0,134.0,79.0,no,No,Weekly,no,Low
+PAT0534,,M,Kano,Engineer,80.0,60.0,22.3,154.0,115.0,78.0,Yes,Yes,Weekly,yes,Low
+PAT0535,70.0,F,Kaduna,Farmer,141.0,98.0,26.1,228.0,89.0,80.0,YES,no,Rarely,No,High
+PAT0536,18.0,F,Kano,Teacher,121.0,70.0,29.7,225.0,104.0,81.0,No,Yes,daily,Yes,Low
+PAT0537,18.0,M,Borno,Doctor,130.0,92.0,19.4,148.0,73.0,85.0,yes,yes,Weekly,No,Low
+PAT0538,64.0,female,Anambra,Student,119.0,62.0,25.9,127.0,122.0,68.0,Yes,Never,weekly,yes,High
+PAT0539,51.0,female,Kano,Teacher,147.0,115.0,18.2,160.0,106.0,67.0,1,Yes,Rarely,no,High
+PAT0540,49.0,M,Anambra,Teacher,132.0,96.0,31.1,195.0,114.0,76.0,no,No,weekly,Yes,High
+PAT0541,71.0,F,Rivers,Civil Servant,128.0,79.0,,246.0,77.0,83.0,yes,Never,Daily,No,High
+PAT0542,65.0,Male,Lagos,Farmer,107.0,73.0,19.3,194.0,91.0,74.0,No,No,Daily,Yes,Low
+PAT0543,42.0,F,Kaduna,Engineer,163.0,95.0,19.2,1690.0,113.0,84.0,yes,Yes,Never,yes,High
+PAT0544,57.0,Male,Lagos,Unemployed,125.0,82.0,27.9,206.0,131.0,82.0,Yes,No,daily,No,High
+PAT0545,62.0,M,Rivers,Trader,171.0,110.0,32.9kg/m2,1950.0,80.0,72.0,No,yes,Weekly,Yes,High
+PAT0546,70.0,female,Kaduna,Trader,164.0,100.0,20.5,145.0,115.0,54.0,no,yes,Never,yes,High
+PAT0547,180.0,M,Abuja,Teacher,89.0,54.0,29.9,145.0,77.0,69.0,No,Yes,daily,Yes,High
+PAT0548,33.0,Female,Abuja,Unemployed,112.0,68.0,23.3kg/m2,146.0,148.0,96.0,Yes,No,Daily,no,Low
+PAT0549,56.0,Female,Anambra,Unemployed,104.0,59.0,30.1,299.0,85.0,79.0,No,No,Rarely,No,Low
+PAT0550,22.0,Male,Rivers,Farmer,124.0,74.0,29.4,234.0,111.0,67.0,yes,Never,daily,No,Low
+PAT0551,39.0,F,Anambra,Student,129.0,72.0,26.8,176.0,99.0,78.0,Yes,No,Weekly,1,Low
+PAT0552,46.0,Male,Oyo,Student,130.0,91.0,16.8,244.0,160.0,83.0,No,Never,Weekly,No,High
+PAT0553,72.0,Male,Kano,Doctor,146.0,87.0,29.4,177.0,101.0,67.0,Yes,No,Never,No,High
+PAT0554,200.0,Female,Bauchi,Civil Servant,155.0,91.0,28.5,243.0,82.0,90.0,no,no,Weekly,No,High
+PAT0555,29.0,F,Oyo,Farmer,144.0,100.0,28.1,203.0,111.0,81.0,Yes,No,Daily,Yes,High
+PAT0556,43.0,F,Kano,Farmer,114.0,77.0,27.0,174.0,110.0,62.0,yes,yes,weekly,No,Low
+PAT0557,33.0,Male,Kaduna,Civil Servant,109.0,77.0,21.6,227.0,91.0,85.0,No,No,Rarely,yes,Low
+PAT0558,,Female,Anambra,Unemployed,125.0,89.0,31.4,206.0,68.0,70.0,no,Never,Never,1,High
+PAT0559,-54.0,M,Kaduna,Student,134.0,103.0,30.5,216.0,82.0,73.0,YES,No,Never,no,High
+PAT0560,39.0,M,Kaduna,Student,121.0,77.0,20.6kg/m2,209.0,117.0,63.0,Yes,No,Daily,No,Low
+PAT0561,74.0,F,Kano,Unemployed,98.0,52.0,32.6,208.0,60.0,83.0,No,No,Weekly,yes,Low
+PAT0562,46.0,Female,Rivers,Student,139.0,93.0,26.7kg/m2,232.0,89.0,73.0,no,Never,Weekly,no,Low
+PAT0563,31.0,M,Kano,Teacher,117.0,71.0,26.6kg/m2,303.0,120.0,83.0,No,no,Weekly,No,Low
+PAT0564,45.0,Female,Enugu,Farmer,117.0,68.0,25.1,250.0,93.0,68.0,No,No,Rarely,Yes,High
+PAT0565,22.0,male,Abuja,Trader,124.0,81.0,25.6,209.0,149.0,67.0,no,no,Rarely,No,Low
+PAT0566,64.0,M,Abuja,Civil Servant,120.0,85.0,32.9,188.0,60.0,66.0,YES,yes,Rarely,no,High
+PAT0567,66.0,Female,Oyo,Student,118.0,70.0,31.2,192.0,71.0,80.0,No,Occasionally,Weekly,No,High
+PAT0568,47.0,Female,Abuja,Doctor,99.0,75.0,31.1,150.0,60.0,67.0,No,Never,Weekly,yes,Low
+PAT0569,63.0,M,Kano,Student,123.0,72.0,26.9,227.0,145.0,73.0,No,yes,Rarely,Yes,High
+PAT0570,69.0,male,Borno,Student,139.0,88.0,30.4,159.0,71.0,69.0,Yes,No,Rarely,0,Low
+PAT0571,22.0,M,Anambra,Engineer,130.0,88.0,21.8,185.0,60.0,80.0,no,Never,Daily,No,Low
+PAT0572,29.0,F,Kano,Teacher,144.0,90.0,28.9,227.0,80.0,54.0,no,yes,Rarely,No,Low
+PAT0573,33.0,F,Kano,Civil Servant,110.0,57.0,25.2,191.0,60.0,78.0,1,Occasionally,Daily,Yes,Low
+PAT0574,43.0,M,Bauchi,Engineer,99.0,72.0,15.7,180.0,80.0,96.0,Yes,No,Weekly,Yes,Low
+PAT0575,43.0,Female,Anambra,Engineer,120.0,73.0,18.1,152.0,96.0,90.0,No,Yes,Never,yes,Low
+PAT0576,65.0,male,Enugu,Doctor,113.0,79.0,22.7,248.0,115.0,68.0,No,Yes,Daily,0,High
+PAT0577,38.0,Female,Abuja,Farmer,115.0,65.0,28.1,167.0,91.0,81.0,No,yes,Rarely,No,Low
+PAT0578,56.0,Female,Anambra,Doctor,129.0,75.0,22.7,177.0,96.0,79.0,no,Occasionally,Weekly,Yes,High
+PAT0579,53.0,female,Abuja,Farmer,115.0,82.0,23.0,128.0,80.0mg/dL,93.0,Yes,Yes,Daily,No,High
+PAT0580,50.0,Male,Oyo,Farmer,100.0,68.0,29.8,199.0,60.0,45.0,No,no,Weekly,Yes,Low
+PAT0581,47.0,Male,Anambra,Civil Servant,114.0,71.0,23.2,187.0,60.0,88.0,yes,no,weekly,Yes,Low
+PAT0582,54.0,Female,Abuja,Student,132.0,89.0,32.7,207.0,86.0,72.0,YES,no,Rarely,yes,High
+PAT0583,40.0,female,Enugu,Civil Servant,138.0,82.0,31.8,,97.0,,no,No,weekly,1,Low
+PAT0584,27.0,Male,Lagos,Teacher,138.0,91.0,26.1,229.0,84.0,66.0,no,Never,Rarely,Yes,High
+PAT0585,71.0,Male,Kaduna,Farmer,133.0,87.0,29.8,126.0,60.0,59.0,No,Yes,Rarely,No,Low
+PAT0586,22.0,Male,Kaduna,Engineer,122.0,76.0,29.1,196.0,100.0,68.0,Yes,Never,Weekly,No,Low
+PAT0587,53.0,Male,Enugu,Student,133.0,80.0,24.8,205.0,136.0,62.0,No,No,Weekly,Yes,High
+PAT0588,51.0,Male,Bauchi,Trader,124.0,81.0,30.3,202.0,92.0,77.0,No,No,Weekly,Yes,High
+PAT0589,69.0,Female,Lagos,Teacher,127.0/82.0,,31.0,206.0,81.0,82.0,yes,Never,Weekly,No,High
+PAT0590,48.0,M,Oyo,Civil Servant,106.0,65.0,21.2,232.0,93.0,72.0,No,No,Rarely,Yes,Low
+PAT0591,27.0,Female,Enugu,Doctor,126.0,74.0,26.8,253.0,67.0,93.0,No,Yes,Weekly,No,Low
+PAT0592,36.0,Female,Kaduna,Teacher,133.0,87.0,26.7,194.0,66.0,68.0,No,no,Weekly,Yes,Low
+PAT0593,49.0,Male,Kaduna,Teacher,132.0,82.0,30.2,161.0,106.0,71.0,Yes,No,Weekly,No,High
+PAT0594,18.0,Female,Kaduna,Student,99.0,56.0,23.8,222.0,120.0,69.0,yes,No,Weekly,Yes,Low
+PAT0595,73.0,M,Rivers,Teacher,127.0,83.0,23.0,189.0,91.0,82.0,No,No,Rarely,no,Low
+PAT0596,22.0,F,Enugu,Teacher,96.0,75.0,26.8,251.0,60.0,83.0,yes,Yes,daily,yes,Low
+PAT0597,62.0,Male,Kano,Trader,128.0,80.0,31.9,176.0,104.0,81.0,No,No,Weekly,no,Low
+PAT0598,21.0,Female,Oyo,Unemployed,111.0,84.0,20.0,166.0,147.0,74.0,No,Yes,Weekly,No,Low
+PAT0599,-33.0,Female,Kaduna,Doctor,159.0,120.0,20.9,206.0,89.0,59.0,no,Occasionally,Weekly,No,Low
+PAT0600,41.0,male,Abuja,Doctor,127.0,75.0,23.4,130.0,91.0,71.0,no,Yes,daily,No,Low
+PAT0601,-33.0,F,Enugu,Doctor,141.0,92.0,24.3,181.0,73.0,93.0,No,No,Daily,Yes,Low
+PAT0602,72.0,M,Rivers,Farmer,167.0,120.0,17.2,187.0,107.0,87.0,No,Yes,Rarely,yes,High
+PAT0603,19.0,Female,Enugu,Engineer,109.0,70.0,33.5,209.0,78.0,79.0,No,Yes,Rarely,No,Low
+PAT0604,66.0,female,Oyo,Unemployed,134.0,87.0,25.3,160.0,121.0,70.0,yes,no,Weekly,No,High
+PAT0605,45.0,Male,Rivers,Doctor,101.0,52.0,24.6kg/m2,165.0,79.0mg/dL,75.0,no,yes,Weekly,No,Low
+PAT0606,49.0,Male,Oyo,Teacher,132.0,82.0,34.1,246.0,104.0,70.0,yes,Yes,Weekly,No,High
+PAT0607,44.0,Female,Enugu,Teacher,160.0,108.0,29.6,199.0,94.0,89.0,No,Yes,daily,0,High
+PAT0608,37.0,Male,Kano,Doctor,112.0,92.0,23.3,235.0,134.0,65.0,No,Yes,Rarely,No,Low
+PAT0609,41.0,female,Oyo,Student,107.0,68.0,26.8,178.0,105.0,86.0,No,Never,Rarely,No,Low
+PAT0610,29.0,F,Rivers,Doctor,123.0,67.0,25.8,198.0,130.0,69.0,yes,yes,Rarely,No,High
+PAT0611,67.0,Female,Rivers,Teacher,166.0,97.0,33.2,209.0,98.0,,No,Yes,Rarely,0,High
+PAT0612,52.0,M,Oyo,Farmer,140.0,91.0,25.2,270.0,91.0,80.0,No,No,Rarely,No,High
+PAT0613,50.0,female,Borno,Civil Servant,107.0,79.0,18.8,191.0,94.0,66.0,Yes,no,Daily,No,Low
+PAT0614,50.0,male,Enugu,Civil Servant,154.0,105.0,16.6,193.0,76.0,71.0,YES,Never,Weekly,Yes,High
+PAT0615,68.0,M,Borno,Unemployed,92.0,63.0,33.4,244.0,108.0,84.0,no,Occasionally,Weekly,yes,High
+PAT0616,60.0,female,Bauchi,Unemployed,168.0/120.0,,22.1,185.0,78.0,69.0,No,No,Rarely,No,Low
+PAT0617,54.0,female,Enugu,Doctor,142.0,87.0,29.4,211.0,98.0,75.0,No,Yes,Daily,No,High
+PAT0618,29.0,F,Oyo,Trader,160.0,104.0,26.4,240.0,116.0mg/dL,69.0,Yes,No,Rarely,no,High
+PAT0619,20.0,Male,Lagos,Doctor,92.0,56.0,23.9kg/m2,177.0,135.0,96.0,Yes,Never,Weekly,0,Low
+PAT0620,18.0,Female,Oyo,Student,128.0,81.0,24.7,214.0,99.0,98.0,No,Occasionally,weekly,No,Low
+PAT0621,50.0,male,Borno,Doctor,122.0,71.0,33.9,270.0,117.0mg/dL,93.0,yes,No,Weekly,no,High
+PAT0622,57.0,Male,Kano,Unemployed,105.0,65.0,18.8,237.0,114.0,74.0,1,No,Weekly,Yes,Low
+PAT0623,27.0,male,Oyo,Civil Servant,99.0,64.0,24.1,211.0,85.0,70.0,No,No,daily,no,Low
+PAT0624,60.0,Male,Oyo,Teacher,135.0,85.0,30.5,191.0,148.0,66.0,No,No,Weekly,No,High
+PAT0625,61.0,Male,Kano,Doctor,137.0,88.0,19.6,176.0,81.0,93.0,No,No,weekly,No,Low
+PAT0626,46.0,Female,Oyo,Teacher,151.0,101.0,32.6,160.0,97.0,86.0,Yes,yes,Daily,no,High
+PAT0627,30.0,Male,Kaduna,Teacher,115.0,85.0,30.5,2600.0,131.0,87.0,Yes,Yes,Weekly,no,High
+PAT0628,29.0,female,Lagos,Trader,122.0,90.0,27.4,253.0,131.0,72.0,no,No,Rarely,No,Low
+PAT0629,48.0,male,Abuja,Teacher,97.0,69.0,23.5,174.0,95.0,54.0,0,no,daily,yes,Low
+PAT0630,63.0,male,Lagos,Civil Servant,156.0,91.0,18.9,214.0,120.0,57.0,No,Yes,Weekly,Yes,High
+PAT0631,19.0,M,Oyo,Farmer,126.0,79.0,29.5,204.0,89.0,76.0,yes,Yes,weekly,no,High
+PAT0632,68.0,Male,Kaduna,Farmer,139.0,88.0,39.7,247.0,83.0,69.0,0,No,Rarely,No,High
+PAT0633,67.0,M,Enugu,Engineer,140.0,86.0,26.7,2150.0,65.0,67.0,Yes,Never,Never,Yes,High
+PAT0634,52.0,M,Oyo,Student,154.0,103.0,16.9,199.0,113.0,79.0,no,Never,Weekly,No,Low
+PAT0635,40.0,M,Borno,Doctor,108.0,57.0,28.3kg/m2,178.0,116.0,87.0,No,Yes,Weekly,No,Low
+PAT0636,34.0,Female,Kaduna,Student,139.0,104.0,30.3,214.0,81.0,67.0,No,No,daily,No,Low
+PAT0637,43.0,M,Kano,Civil Servant,124.0,90.0,21.4,,102.0,59.0,No,No,weekly,No,Low
+PAT0638,25.0,Female,Kaduna,Teacher,167.0,112.0,22.8,209.0,161.0,67.0,yes,yes,Rarely,No,High
+PAT0639,46.0,female,Kano,Farmer,108.0,70.0,22.3kg/m2,197.0,124.0,62.0,no,no,Daily,yes,Low
+PAT0640,,male,Bauchi,Student,148.0,106.0,23.3,185.0,72.0,82.0,Yes,Never,Daily,No,Low
+PAT0641,27.0,Female,Abuja,Civil Servant,132.0,91.0,25.1,161.0,120.0,75.0,No,No,Rarely,No,Low
+PAT0642,43.0,M,Anambra,Farmer,131.0,94.0,21.7,221.0,73.0,98.0,Yes,Occasionally,Daily,No,Low
+PAT0643,51.0,F,Kaduna,Teacher,126.0,81.0,19.8,202.0,60.0,84.0,1,Occasionally,Weekly,Yes,Low
+PAT0644,68.0,Male,Rivers,Student,152.0,113.0,26.9,271.0,94.0,97.0,No,Never,Weekly,No,High
+PAT0645,58.0,male,Borno,Farmer,130.0,94.0,25.1,159.0,134.0,58.0,no,yes,Never,No,High
+PAT0646,24.0,male,Oyo,Doctor,95.0,66.0,23.8,225.0,130.0,45.0,No,No,Daily,No,Low
+PAT0647,21.0,Female,Borno,Unemployed,149.0,107.0,26.4,197.0,104.0,78.0,Yes,No,Rarely,No,High
+PAT0648,70.0,Female,Lagos,Doctor,146.0,92.0,18.4,284.0,81.0,76.0,Yes,Yes,Rarely,No,High
+PAT0649,67.0,Female,Anambra,Engineer,137.0,80.0,27.3,222.0,107.0,74.0,No,No,Rarely,No,High
+PAT0650,62.0,Female,Lagos,Engineer,102.0,69.0,23.9,213.0,88.0,76.0,No,no,Weekly,no,Low
+PAT0651,28.0,Male,Bauchi,Farmer,106.0,68.0,27.2,197.0,82.0,62.0,No,yes,Weekly,Yes,Low
+PAT0652,46.0,male,Anambra,Unemployed,87.0,55.0,28.0,172.0,122.0,82.0,Yes,Occasionally,Rarely,0,High
+PAT0653,73.0,Male,Anambra,Civil Servant,134.0,97.0,31.7,212.0,82.0,84.0,No,Yes,Never,No,High
+PAT0654,53.0,Female,Lagos,Doctor,98.0,65.0,26.5,145.0,123.0,61.0,No,Yes,Rarely,no,Low
+PAT0655,42.0,female,Kano,Civil Servant,91.0,61.0,31.3,147.0,80.0,71.0,No,Never,weekly,No,Low
+PAT0656,38.0,F,Lagos,Unemployed,150.0,95.0,24.4,240.0,146.0,71.0,yes,No,Never,No,High
+PAT0657,740.0,Female,Borno,Civil Servant,140.0,98.0,24.6,130.0,60.0,67.0,No,Yes,Never,1,High
+PAT0658,53.0,Female,Kano,Unemployed,118.0,82.0,25.5,187.0,71.0,61.0,YES,Occasionally,Weekly,Yes,High
+PAT0659,27.0,Male,Borno,Farmer,122.0,86.0,29.9,158.0,91.0,75.0,Yes,Never,Weekly,Yes,Low
+PAT0660,54.0,F,Bauchi,Civil Servant,80.0,50.0,29.2,184.0,60.0,78.0,No,No,Rarely,No,Low
+PAT0661,26.0,Male,Oyo,Doctor,143.0,103.0,26.7,207.0,60.0,68.0,No,Never,Weekly,0,Low
+PAT0662,41.0,M,Enugu,Teacher,111.0,87.0,19.9,239.0,60.0,62.0,No,no,Rarely,No,Low
+PAT0663,52.0,female,Kano,Engineer,132.0,93.0,29.1,249.0,88.0,80.0,yes,Never,Weekly,No,High
+PAT0664,66.0,Male,Bauchi,Teacher,80.0,50.0,21.7,163.0,88.0,66.0,No,Never,Rarely,yes,Low
+PAT0665,52.0,male,Rivers,Civil Servant,145.0,88.0,21.4,181.0,103.0,71.0,No,Yes,Rarely,No,High
+PAT0666,65.0,female,Bauchi,Teacher,110.0,68.0,20.3kg/m2,350.0,90.0,70.0,No,yes,Rarely,yes,High
+PAT0667,53.0,Male,Lagos,Doctor,97.0,59.0,25.6,190.0,102.0,90.0,YES,Yes,weekly,No,Low
+PAT0668,35.0,male,Lagos,Doctor,118.0,76.0,32.1,165.0,84.0,66.0,0,Yes,Weekly,no,Low
+PAT0669,66.0,M,Enugu,Civil Servant,113.0,79.0,21.2,171.0,113.0,96.0,No,Occasionally,Weekly,No,Low
+PAT0670,56.0,female,Bauchi,Farmer,146.0,97.0,34.4,190.0,110.0,84.0,Yes,No,Weekly,No,High
+PAT0671,49.0,M,Abuja,Teacher,117.0,78.0,30.5,184.0,87.0,97.0,no,no,daily,No,Low
+PAT0672,41.0,F,Oyo,Farmer,152.0,97.0,18.7,191.0,108.0,83.0,YES,Never,Rarely,No,High
+PAT0673,40.0,M,Lagos,Farmer,132.0,85.0,24.1,199.0,90.0,72.0,No,Occasionally,Rarely,No,High
+PAT0674,49.0,male,Enugu,Unemployed,143.0,99.0,20.8,199.0,60.0,64.0,No,Never,Weekly,No,Low
+PAT0675,54.0,F,Oyo,Trader,125.0,65.0,29.3,162.0,118.0,71.0,0,No,Rarely,Yes,High
+PAT0676,29.0,M,Bauchi,Civil Servant,150.0,97.0,21.1,215.0,72.0,93.0,yes,No,Weekly,No,Low
+PAT0677,66.0,male,Bauchi,Engineer,102.0,69.0,17.9kg/m2,205.0,117.0,74.0,No,Yes,Never,No,Low
+PAT0678,72.0,Male,Anambra,Doctor,127.0,89.0,24.4,220.0,103.0,83.0,No,No,Never,Yes,High
+PAT0679,30.0,Male,Enugu,Doctor,117.0,68.0,31.8kg/m2,1310.0,93.0,77.0,0,No,Never,No,Low
+PAT0680,40.0,Male,Lagos,Civil Servant,153.0,91.0,25.0,206.0,60.0,78.0,no,yes,Never,No,Low
+PAT0681,42.0,Female,Abuja,Unemployed,155.0,105.0,28.0,121.0,133.0,78.0,yes,no,Rarely,No,Low
+PAT0682,52.0,Male,Bauchi,Student,125.0,66.0,28.2,193.0,86.0,81.0,yes,Occasionally,Never,No,High
+PAT0683,58.0,female,Abuja,Student,99.0,75.0,18.4,,111.0,65.0,Yes,no,Weekly,1,High
+PAT0684,47.0,Male,Bauchi,Student,134.0,89.0,21.5,242.0,92.0,72.0,no,yes,Rarely,No,Low
+PAT0685,34.0,F,Lagos,Unemployed,92.0,72.0,26.0,213.0,88.0,79.0,No,No,Weekly,No,Low
+PAT0686,66.0,Male,Oyo,Engineer,158.0,94.0,23.2,227.0,100.0,77.0,0,Yes,Daily,No,High
+PAT0687,37.0,male,Kaduna,Doctor,116.0,72.0,34.5,188.0,96.0,69.0,No,No,Weekly,no,Low
+PAT0688,65.0,female,Oyo,Civil Servant,124.0,61.0,19.9,180.0,88.0,80.0,1,Never,Rarely,No,High
+PAT0689,42.0,Female,Bauchi,Unemployed,111.0,66.0,21.5,308.0,94.0,66.0,No,No,Weekly,no,Low
+PAT0690,39.0,male,Borno,Doctor,107.0,68.0,27.5,233.0,106.0,60.0,No,no,Never,Yes,High
+PAT0691,-30.0,Male,Kaduna,Farmer,140.0,75.0,22.9,153.0,107.0,79.0,Yes,yes,Daily,no,Low
+PAT0692,36.0,male,Kaduna,Teacher,122.0,76.0,15.0,131.0,96.0,61.0,yes,Yes,Weekly,No,Low
+PAT0693,66.0,Male,Abuja,Teacher,126.0,66.0,35.7,181.0,111.0,78.0,no,No,Never,Yes,High
+PAT0694,53.0,female,Enugu,Unemployed,105.0,66.0,20.6,248.0,84.0,52.0,yes,No,Weekly,No,Low
+PAT0695,29.0,Male,Abuja,Doctor,142.0,101.0,28.8,202.0,151.0,66.0,No,No,Never,0,Low
+PAT0696,58.0,M,Abuja,Trader,144.0,93.0,19.7,1110.0,132.0,71.0,Yes,Never,Rarely,yes,High
+PAT0697,36.0,F,Borno,Engineer,121.0,92.0,21.7,193.0,114.0,56.0,0,no,weekly,No,Low
+PAT0698,29.0,Female,Oyo,Student,150.0,104.0,17.9,200.0,60.0,71.0,yes,yes,Rarely,Yes,High
+PAT0699,26.0,Male,Oyo,Engineer,123.0,91.0,22.3,103.0,110.0mg/dL,89.0,yes,Never,Daily,No,Low
+PAT0700,24.0,Male,Rivers,Engineer,141.0,86.0,22.8,201.0,87.0,60.0,no,yes,Weekly,No,Low
+PAT0701,45.0,Female,Bauchi,Unemployed,93.0,54.0,25.3,1590.0,71.0,71.0,yes,Occasionally,Daily,Yes,High
+PAT0702,31.0,M,Borno,Farmer,132.0,89.0,24.1,127.0,86.0,95.0,No,No,daily,No,Low
+PAT0703,48.0,Male,Rivers,Engineer,120.0,65.0,18.8,264.0,73.0,62.0,yes,no,Daily,no,Low
+PAT0704,69.0,Female,Lagos,Teacher,128.0,87.0,23.4,158.0,108.0,92.0,No,No,Weekly,No,Low
+PAT0705,36.0,Male,Bauchi,Farmer,127.0,80.0,33.2,173.0,135.0,72.0,1,No,Weekly,Yes,High
+PAT0706,64.0,male,Bauchi,Civil Servant,128.0,94.0,32.6,173.0,116.0,76.0,no,Yes,Never,No,High
+PAT0707,33.0,Male,Anambra,Engineer,137.0/94.0,,28.3,200.0,164.0,90.0,Yes,yes,Weekly,1,High
+PAT0708,70.0,Female,Anambra,Engineer,114.0,83.0,29.3,271.0,60.0,69.0,No,No,weekly,yes,High
+PAT0709,22.0,Male,Kano,Civil Servant,136.0,82.0,,152.0,82.0,83.0,Yes,No,Daily,No,Low
+PAT0710,52.0,Female,Kano,Engineer,150.0,106.0,28.9,188.0,71.0,86.0,Yes,Occasionally,Daily,0,High
+PAT0711,29.0,male,Abuja,Civil Servant,97.0,75.0,29.2,205.0,126.0,67.0,No,Never,Weekly,yes,Low
+PAT0712,42.0,Female,Lagos,Farmer,109.0,71.0,18.2,165.0,89.0,66.0,1,no,Never,Yes,Low
+PAT0713,69.0,Male,Kaduna,Teacher,110.0,66.0,20.4,187.0,100.0mg/dL,72.0,Yes,Never,daily,No,High
+PAT0714,38.0,F,Kaduna,Civil Servant,103.0,61.0,25.8,224.0,111.0,73.0,No,Occasionally,Daily,0,Low
+PAT0715,53.0,F,Anambra,Trader,116.0,,22.0,170.0,60.0,62.0,0,yes,Daily,No,Low
+PAT0716,70.0,Male,Anambra,Unemployed,146.0,116.0,21.0,186.0,79.0,67.0,no,No,Never,Yes,High
+PAT0717,40.0,F,Anambra,Unemployed,154.0,92.0,21.6,183.0,120.0,45.0,No,Never,Daily,No,Low
+PAT0718,33.0,female,Borno,Civil Servant,127.0,74.0,18.9,196.0,81.0,71.0,no,no,Daily,No,Low
+PAT0719,74.0,Male,Enugu,Unemployed,119.0,85.0,22.0kg/m2,210.0,60.0,86.0,No,No,Daily,0,Low
+PAT0720,-56.0,F,Kano,Engineer,141.0,86.0,27.7,2230.0,72.0,55.0,Yes,No,Daily,No,Low
+PAT0721,62.0,F,Borno,Student,80.0,60.0,35.0,278.0,88.0mg/dL,69.0,Yes,No,Weekly,No,Low
+PAT0722,70.0,Female,Oyo,Student,104.0,71.0,30.0,100.0,99.0,104.0,Yes,Occasionally,Daily,no,High
+PAT0723,59.0,Male,Kaduna,Unemployed,80.0,52.0,29.2,193.0,93.0mg/dL,75.0,No,No,Weekly,No,Low
+PAT0724,,Male,Bauchi,Farmer,104.0,71.0,17.9,145.0,80.0,91.0,0,Occasionally,Never,Yes,Low
+PAT0725,31.0,male,Kano,Doctor,110.0,,26.6,185.0,118.0,63.0,no,Occasionally,Weekly,1,Low
+PAT0726,48.0,female,Rivers,Farmer,155.0/99.0,,25.7,235.0,92.0,80.0,No,yes,Never,No,High
+PAT0727,22.0,F,Oyo,Doctor,80.0,50.0,27.5,248.0,100.0,61.0,No,yes,Daily,No,Low
+PAT0728,52.0,Female,Kano,Student,117.0,77.0,24.2,,81.0,80.0,No,No,Rarely,No,Low
+PAT0729,40.0,M,Borno,Student,137.0,102.0,34.3kg/m2,249.0,133.0,85.0,yes,Yes,Weekly,Yes,High
+PAT0730,46.0,M,Lagos,Civil Servant,133.0,74.0,26.3,193.0,85.0,82.0,no,Yes,Never,1,High
+PAT0731,600.0,Female,Bauchi,Teacher,154.0,92.0,26.8,256.0,97.0,71.0,No,Never,Daily,No,High
+PAT0732,28.0,Male,Kano,Trader,128.0,87.0,16.2,264.0,121.0,78.0,Yes,No,daily,No,Low
+PAT0733,35.0,male,Enugu,Farmer,132.0,86.0,25.5,206.0,102.0,,No,Yes,Weekly,Yes,High
+PAT0734,64.0,Female,Anambra,Engineer,88.0,60.0,31.7,247.0,101.0,83.0,No,No,Weekly,No,Low
+PAT0735,29.0,male,Anambra,Doctor,105.0,63.0,28.8,202.0,60.0,74.0,No,Occasionally,weekly,no,Low
+PAT0736,26.0,Female,Bauchi,Unemployed,89.0,67.0,15.2,2560.0,112.0,86.0,No,No,Rarely,yes,Low
+PAT0737,27.0,Male,Borno,Engineer,136.0,89.0,23.8,194.0,96.0,92.0,No,Occasionally,Weekly,1,Low
+PAT0738,61.0,Male,Anambra,Teacher,132.0/91.0,,34.7,176.0,109.0,71.0,No,No,weekly,No,Low
+PAT0739,34.0,Female,Kano,Doctor,131.0,88.0,25.2,155.0,100.0,76.0,No,No,Weekly,yes,Low
+PAT0740,55.0,female,Rivers,Farmer,107.0,71.0,27.6,193.0,81.0,64.0,No,Yes,Daily,No,Low
+PAT0741,-24.0,Male,Kaduna,Civil Servant,106.0/74.0,,34.1,203.0,117.0,79.0,1,No,weekly,no,Low
+PAT0742,63.0,male,Kaduna,Engineer,129.0,85.0,25.2,162.0,100.0,79.0,YES,yes,Weekly,yes,High
+PAT0743,30.0,M,Oyo,Teacher,112.0,63.0,30.0,190.0,63.0,76.0,1,No,daily,No,Low
+PAT0744,57.0,male,Abuja,Farmer,105.0,77.0,28.1kg/m2,179.0,128.0,77.0,yes,yes,Weekly,No,Low
+PAT0745,59.0,Female,Lagos,Student,115.0,81.0,29.1,1570.0,60.0,98.0,No,yes,Never,No,Low
+PAT0746,26.0,male,Bauchi,Student,112.0,56.0,27.9,241.0,118.0,45.0,yes,no,Rarely,No,High
+PAT0747,67.0,F,Oyo,Farmer,108.0,65.0,23.3,248.0,132.0,69.0,0,Never,weekly,0,Low
+PAT0748,44.0,Male,Abuja,Farmer,100.0,73.0,23.8,241.0,67.0,71.0,No,No,Rarely,Yes,Low
+PAT0749,19.0,Male,Borno,Farmer,134.0,72.0,21.7,197.0,92.0,92.0,No,yes,Daily,Yes,Low
+PAT0750,22.0,male,Enugu,Doctor,156.0,109.0,17.8,199.0,90.0,81.0,yes,Occasionally,Rarely,Yes,High
+PAT0751,46.0,female,Enugu,Farmer,124.0,79.0,32.2,157.0,91.0,81.0,yes,Never,Daily,yes,High
+PAT0752,54.0,Male,Lagos,Engineer,129.0,95.0,26.1kg/m2,217.0,141.0,90.0,No,Occasionally,Never,No,High
+PAT0753,55.0,F,Anambra,Teacher,136.0,88.0,32.0kg/m2,207.0,68.0,73.0,No,No,daily,Yes,High
+PAT0754,36.0,female,Kano,Doctor,132.0,80.0,33.8,314.0,87.0,83.0,no,Never,Rarely,No,Low
+PAT0755,250.0,male,Oyo,Farmer,108.0,73.0,26.3,243.0,133.0,69.0,No,yes,Never,No,High
+PAT0756,65.0,female,Oyo,Trader,159.0,103.0,19.4,213.0,87.0,62.0,no,Yes,Daily,No,High
+PAT0757,62.0,F,Bauchi,Unemployed,110.0,65.0,25.0,1980.0,72.0,97.0,No,Never,Rarely,yes,High
+PAT0758,18.0,Female,Bauchi,Trader,138.0,107.0,22.6,240.0,102.0,79.0,0,no,Weekly,No,Low
+PAT0759,39.0,Female,Enugu,Teacher,136.0,81.0,16.1,163.0,115.0,83.0,No,Yes,Rarely,No,Low
+PAT0760,,Female,Enugu,Student,86.0,50.0,23.5,246.0,85.0,62.0,No,Yes,Daily,Yes,Low
+PAT0761,34.0,F,Rivers,Civil Servant,118.0,89.0,25.6,157.0,109.0,81.0,Yes,Never,Never,Yes,High
+PAT0762,24.0,F,Rivers,Civil Servant,126.0,77.0,22.8,178.0,61.0,96.0,Yes,Yes,Daily,No,Low
+PAT0763,42.0,Male,Anambra,Unemployed,128.0,81.0,22.1,126.0,62.0,72.0,No,Yes,Rarely,No,Low
+PAT0764,62.0,male,Rivers,Student,131.0,82.0,19.6,225.0,84.0,60.0,No,No,Daily,No,Low
+PAT0765,21.0,F,Kano,Doctor,140.0,86.0,27.0,210.0,110.0,77.0,No,Yes,Never,Yes,High
+PAT0766,53.0,M,Kano,Doctor,125.0,75.0,35.3,178.0,114.0,63.0,Yes,Occasionally,Weekly,Yes,High
+PAT0767,23.0,Female,Oyo,Doctor,132.0,78.0,32.4,163.0,65.0,56.0,no,No,Rarely,no,Low
+PAT0768,48.0,M,Kaduna,Civil Servant,124.0,81.0,29.3,255.0,113.0,66.0,no,yes,Weekly,No,High
+PAT0769,36.0,Male,Kano,Trader,105.0,65.0,29.4,195.0,99.0,69.0,Yes,Occasionally,Never,yes,High
+PAT0770,61.0,Male,Abuja,Civil Servant,126.0,88.0,25.3,169.0,73.0,63.0,No,No,Weekly,no,Low
+PAT0771,71.0,Male,Enugu,Engineer,140.0,95.0,17.0,277.0,62.0,91.0,no,No,Never,No,High
+PAT0772,56.0,Male,Bauchi,Farmer,147.0,88.0,24.2,174.0,101.0,98.0,No,Never,Weekly,yes,Low
+PAT0773,44.0,Female,Rivers,Doctor,136.0,89.0,21.2,246.0,127.0,82.0,No,No,Never,No,Low
+PAT0774,27.0,M,Oyo,Trader,152.0,95.0,26.8,154.0,96.0,80.0,yes,No,Daily,Yes,High
+PAT0775,43.0,Male,Lagos,Teacher,133.0,79.0,32.2,186.0,72.0,73.0,No,no,Weekly,No,Low
+PAT0776,36.0,F,Bauchi,Unemployed,142.0,98.0,35.9,220.0,60.0,64.0,No,Never,Rarely,No,Low
+PAT0777,56.0,Female,Abuja,Teacher,144.0,93.0,26.3,198.0,133.0,94.0,No,Never,Daily,No,High
+PAT0778,,female,Rivers,Farmer,121.0,75.0,17.7kg/m2,210.0,121.0,74.0,No,Occasionally,Weekly,No,Low
+PAT0779,62.0,female,Abuja,Trader,140.0,84.0,26.3,178.0,103.0,69.0,Yes,Never,weekly,No,High
+PAT0780,30.0,Male,Enugu,Civil Servant,106.0/61.0,,26.4,136.0,132.0,87.0,0,Never,weekly,Yes,Low
+PAT0781,67.0,Female,Enugu,Civil Servant,132.0/102.0,,29.4,259.0,101.0,,No,Never,Never,Yes,High
+PAT0782,45.0,Male,Anambra,Engineer,137.0,92.0,25.9,181.0,82.0mg/dL,87.0,No,Yes,Weekly,Yes,Low
+PAT0783,37.0,M,Oyo,Engineer,146.0,86.0,26.3,212.0,109.0,70.0,No,No,Weekly,Yes,High
+PAT0784,45.0,M,Bauchi,Civil Servant,141.0,94.0,22.8,228.0,74.0,87.0,No,no,Rarely,No,Low
+PAT0785,25.0,Male,Borno,Teacher,146.0,103.0,24.4,212.0,70.0,87.0,No,yes,Daily,No,Low
+PAT0786,58.0,M,Borno,Unemployed,123.0,81.0,28.6,172.0,114.0,,No,Yes,weekly,Yes,High
+PAT0787,56.0,Male,Bauchi,Doctor,118.0,,16.0,246.0,116.0,66.0,Yes,No,Weekly,no,Low
+PAT0788,18.0,Male,Lagos,Teacher,120.0,66.0,24.4,221.0,63.0,74.0,No,No,weekly,no,Low
+PAT0789,20.0,F,Oyo,Unemployed,130.0,69.0,29.4,208.0,64.0,98.0,No,yes,Rarely,No,Low
+PAT0790,30.0,Female,Abuja,Engineer,89.0,60.0,34.2,207.0,84.0,72.0,Yes,Never,Never,yes,High
+PAT0791,45.0,M,Lagos,Farmer,152.0,101.0,24.0,267.0,77.0,85.0,no,Occasionally,Daily,No,Low
+PAT0792,74.0,Female,Kaduna,Unemployed,126.0,55.0,31.9,171.0,107.0,102.0,No,Never,daily,Yes,High
+PAT0793,66.0,female,Bauchi,Civil Servant,117.0,71.0,34.5,217.0,96.0,53.0,No,Never,Weekly,1,High
+PAT0794,42.0,Male,Abuja,Engineer,80.0/50.0,,24.1,179.0,124.0,72.0,No,No,Rarely,Yes,Low
+PAT0795,73.0,Female,Borno,Engineer,124.0,69.0,23.2,123.0,103.0,75.0,No,No,Never,1,High
+PAT0796,50.0,F,Kano,Doctor,121.0,71.0,25.1,121.0,79.0,53.0,0,No,Weekly,No,Low
+PAT0797,55.0,Female,Anambra,Civil Servant,107.0,74.0,25.6,159.0,60.0,70.0,Yes,yes,Weekly,No,High
+PAT0798,70.0,female,Borno,Doctor,112.0,65.0,31.5,,99.0,63.0,Yes,Yes,Rarely,No,High
+PAT0799,23.0,F,Oyo,Civil Servant,124.0,73.0,22.1,287.0,60.0,85.0,Yes,yes,Weekly,No,Low
+PAT0800,61.0,F,Enugu,Doctor,113.0,60.0,33.7,228.0,79.0mg/dL,54.0,Yes,no,Rarely,Yes,High
+PAT0697,36.0,F,Borno,Engineer,121.0,92.0,21.7,193.0,114.0,56.0,0,no,weekly,No,Low
+PAT0668,35.0,male,Lagos,Doctor,118.0,76.0,32.1,165.0,84.0,66.0,0,Yes,Weekly,no,Low
+PAT0064,240.0,M,Enugu,Doctor,122.0,84.0,25.6,203.0,122.0,99.0,No,No,Daily,Yes,High
+PAT0534,,M,Kano,Engineer,80.0,60.0,22.3,154.0,115.0,78.0,Yes,Yes,Weekly,yes,Low
+PAT0067,64.0,Female,Borno,Engineer,119.0,88.0,31.5,182.0,105.0,79.0,No,No,Rarely,0,High
+PAT0622,57.0,Male,Kano,Unemployed,105.0,65.0,18.8,237.0,114.0,74.0,1,No,Weekly,Yes,Low
+PAT0347,57.0,M,Enugu,Farmer,131.0,87.0,30.5,192.0,84.0,80.0,yes,No,Rarely,No,High
+PAT0491,66.0,Male,Kano,Doctor,142.0,95.0,30.3,121.0,99.0,53.0,Yes,yes,Rarely,No,High
+PAT0761,34.0,F,Rivers,Civil Servant,118.0,89.0,25.6,157.0,109.0,81.0,Yes,Never,Never,Yes,High
+PAT0457,56.0,F,Rivers,Engineer,108.0,89.0,23.3,165.0,129.0,74.0,no,Never,Daily,No,Low
+PAT0066,25.0,F,Abuja,Unemployed,112.0,79.0,31.6,214.0,92.0,69.0,No,No,Daily,No,Low
+PAT0287,,Female,Borno,Civil Servant,129.0,81.0,24.2,220.0,140.0,77.0,Yes,Never,Weekly,Yes,High
+PAT0636,34.0,Female,Kaduna,Student,139.0,104.0,30.3,214.0,81.0,67.0,No,No,daily,No,Low
+PAT0068,52.0,Male,Abuja,Unemployed,147.0,96.0,30.6,2540.0,112.0,88.0,No,Never,daily,yes,High
+PAT0328,26.0,female,Kano,Unemployed,98.0,50.0,31.0,169.0,84.0,,No,Yes,Weekly,No,Low
+PAT0396,50.0,F,Enugu,Unemployed,129.0,82.0,23.8,181.0,112.0,62.0,No,No,Weekly,No,Low
+PAT0245,34.0,Male,Oyo,Unemployed,106.0,50.0,21.8,,74.0,69.0,No,yes,Rarely,No,Low
+PAT0378,29.0,Male,Kano,Farmer,140.0,90.0,24.8,228.0,96.0,72.0,yes,Never,Never,Yes,High
+PAT0611,67.0,Female,Rivers,Teacher,166.0,97.0,33.2,209.0,98.0,,No,Yes,Rarely,0,High
+PAT0527,72.0,female,Kaduna,Teacher,131.0,77.0,29.3,163.0,131.0,61.0,Yes,No,Daily,No,High
+PAT0659,27.0,Male,Borno,Farmer,122.0,86.0,29.9,158.0,91.0,75.0,Yes,Never,Weekly,Yes,Low
+PAT0530,43.0,M,Abuja,Unemployed,163.0,,29.6,195.0,66.0,83.0,Yes,yes,Weekly,No,High
+PAT0623,27.0,male,Oyo,Civil Servant,99.0,64.0,24.1,211.0,85.0,70.0,No,No,daily,no,Low
+PAT0722,70.0,Female,Oyo,Student,104.0,71.0,30.0,100.0,99.0,104.0,Yes,Occasionally,Daily,no,High
+PAT0361,33.0,Male,Bauchi,Engineer,138.0,85.0,21.5,274.0,103.0,45.0,No,Never,Rarely,Yes,High
